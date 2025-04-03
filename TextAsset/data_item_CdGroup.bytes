@@ -1,0 +1,36 @@
+local table = {
+	[1] = {
+		["Id"] = 1,
+	},
+	[2] = {
+		["Id"] = 2,
+	},
+	[3] = {
+		["CD"] = 10000,
+		["Id"] = 3,
+	},
+	[4] = {
+		["CD"] = 10000,
+		["Id"] = 4,
+	},
+	[5] = {
+		["CD"] = 30000,
+		["Id"] = 5,
+	},
+	[6] = {
+		["CD"] = 30000,
+		["Id"] = 6,
+	},
+	[7] = {
+		["CD"] = 72000000,
+		["Id"] = 7,
+	},
+}
+local baseTable = 
+{
+	["CD"] = 15000,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

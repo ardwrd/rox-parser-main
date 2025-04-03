@@ -1,0 +1,51 @@
+local table = {
+	[1] = {
+		["Id"] = 1011,
+		["effectId"] = "refineEffect11",
+		["level"] = 11,
+		["shadow"] = "refineEffect11_cy",
+		["shadowInterval"] = 1.1,
+		["weight"] = 1,
+	},
+	[2] = {
+		["Id"] = 1012,
+		["effectId"] = "refineEffect12",
+		["level"] = 12,
+		["shadow"] = "refineEffect12_cy",
+		["shadowInterval"] = 1.2,
+		["weight"] = 2,
+	},
+	[3] = {
+		["Id"] = 1013,
+		["effectId"] = "refineEffect13",
+		["level"] = 13,
+		["shadow"] = "refineEffect13_cy",
+		["shadowInterval"] = 1.3,
+		["weight"] = 3,
+	},
+	[4] = {
+		["Id"] = 1014,
+		["effectId"] = "refineEffect14",
+		["level"] = 14,
+		["shadow"] = "refineEffect14_cy",
+		["shadowInterval"] = 1.4,
+		["weight"] = 4,
+	},
+	[5] = {
+		["Id"] = 1015,
+		["effectId"] = "refineEffect15",
+		["level"] = 15,
+		["shadow"] = "refineEffect15_cy",
+		["shadowInterval"] = 1.5,
+		["weight"] = 5,
+	},
+}
+local baseTable = 
+{
+	["shadowDuration"] = 1000,
+	["wearCount"] = 8,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

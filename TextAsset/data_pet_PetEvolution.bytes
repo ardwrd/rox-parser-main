@@ -1,0 +1,558 @@
+local table = {
+	[1] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82002,
+		["Fashion"] = "4101028,1",
+		["Id"] = 1,
+		["PetId"] = 82001,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[2] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82004,
+		["Fashion"] = "4101022,1",
+		["Id"] = 2,
+		["PetId"] = 82003,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[3] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82006,
+		["Fashion"] = "4101014,1",
+		["Id"] = 3,
+		["PetId"] = 82005,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[4] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82008,
+		["Fashion"] = "4101038,1",
+		["Id"] = 4,
+		["Item"] = "10409102,50",
+		["Level"] = 30,
+		["PetId"] = 82007,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+		["Star"] = 3,
+	},
+	[5] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82010,
+		["Fashion"] = "4102032,1",
+		["Id"] = 5,
+		["Item"] = "10409102,50",
+		["Level"] = 30,
+		["PetId"] = 82009,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+		["Star"] = 3,
+	},
+	[6] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82012,
+		["Fashion"] = "4103003,1",
+		["Id"] = 6,
+		["Item"] = "10409102,50",
+		["Level"] = 30,
+		["PetId"] = 82011,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+		["Star"] = 3,
+	},
+	[7] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82020,
+		["Fashion"] = "4101020,1",
+		["Id"] = 7,
+		["PetId"] = 82019,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[8] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82022,
+		["Fashion"] = "4101053,1",
+		["Id"] = 8,
+		["PetId"] = 82021,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[9] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82024,
+		["Fashion"] = "4101024,1",
+		["Id"] = 9,
+		["PetId"] = 82023,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[10] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82026,
+		["Fashion"] = "4101036,1",
+		["Id"] = 10,
+		["Item"] = "10409102,50",
+		["Level"] = 30,
+		["PetId"] = 82025,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+		["Star"] = 3,
+	},
+	[11] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 82028,
+		["Fashion"] = "4101152,1",
+		["Id"] = 11,
+		["Item"] = "10409102,50",
+		["Level"] = 30,
+		["PetId"] = 82027,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+		["Star"] = 3,
+	},
+	[12] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85011,
+		["Fashion"] = "4101041,1",
+		["Id"] = 12,
+		["PetId"] = 85010,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[13] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85006,
+		["Fashion"] = "4101171,1",
+		["Id"] = 13,
+		["PetId"] = 85005,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[14] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85003,
+		["Fashion"] = "4101001,1",
+		["Id"] = 14,
+		["PetId"] = 85013,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[15] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85008,
+		["Fashion"] = "4101172,1",
+		["Id"] = 15,
+		["PetId"] = 85007,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[16] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85012,
+		["Fashion"] = "4101007,1",
+		["Id"] = 16,
+		["PetId"] = 85025,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+	[17] = {
+		["ActivityPotentialProbability"] = {
+			"400:600:0",
+			"0:850:150",
+			"0:625:375",
+		},
+		["ActivityPotentialProbabilityShow"] = {
+			"60:0:40",
+			"15:0:85",
+			"0:62.5:37.5",
+		},
+		["EvolutionId"] = 85001,
+		["Fashion"] = "4101006,1",
+		["Id"] = 17,
+		["PetId"] = 85026,
+		["Potential"] = {
+			1,
+			2,
+			3,
+		},
+		["PotentialProbability"] = {
+			"60:40:0",
+			"5:85:10",
+			"0:75:25",
+		},
+		["PotentialProbabilityShow"] = {
+			"40:0:60",
+			"10:5:85",
+			"0:75:25",
+		},
+	},
+}
+local baseTable = 
+{
+	["ActivityProbability"] = 1,
+	["Deduct"] = 0,
+	["Item"] = "10409104,50",
+	["Level"] = 50,
+	["Order"] = 1,
+	["Probability"] = 1,
+	["Star"] = 5,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

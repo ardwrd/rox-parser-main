@@ -1,0 +1,1547 @@
+local table = {
+	[1] = {
+		["appraisalId"] = 1001,
+		["id"] = 1,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[2] = {
+		["appraisalId"] = 1013,
+		["id"] = 2,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[3] = {
+		["appraisalId"] = 1021,
+		["id"] = 3,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[4] = {
+		["appraisalId"] = 1029,
+		["id"] = 4,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[5] = {
+		["appraisalId"] = 1037,
+		["id"] = 5,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[6] = {
+		["appraisalId"] = 1045,
+		["id"] = 6,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[7] = {
+		["appraisalId"] = 1049,
+		["id"] = 7,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 20,
+	},
+	[8] = {
+		["appraisalId"] = 1002,
+		["id"] = 8,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[9] = {
+		["appraisalId"] = 1014,
+		["id"] = 9,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[10] = {
+		["appraisalId"] = 1022,
+		["id"] = 10,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[11] = {
+		["appraisalId"] = 1030,
+		["id"] = 11,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[12] = {
+		["appraisalId"] = 1038,
+		["id"] = 12,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[13] = {
+		["appraisalId"] = 1046,
+		["id"] = 13,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[14] = {
+		["appraisalId"] = 1050,
+		["id"] = 14,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 30,
+	},
+	[15] = {
+		["appraisalId"] = 1003,
+		["id"] = 15,
+		["slot"] = {
+			0,
+		},
+	},
+	[16] = {
+		["appraisalId"] = 1015,
+		["id"] = 16,
+		["slot"] = {
+			0,
+		},
+	},
+	[17] = {
+		["appraisalId"] = 1023,
+		["id"] = 17,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[18] = {
+		["appraisalId"] = 1031,
+		["id"] = 18,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[19] = {
+		["appraisalId"] = 1039,
+		["id"] = 19,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[20] = {
+		["appraisalId"] = 1047,
+		["id"] = 20,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+	},
+	[21] = {
+		["appraisalId"] = 1051,
+		["id"] = 21,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+	},
+	[22] = {
+		["appraisalId"] = 1004,
+		["id"] = 22,
+		["slot"] = {
+			0,
+		},
+	},
+	[23] = {
+		["appraisalId"] = 1016,
+		["id"] = 23,
+		["slot"] = {
+			0,
+		},
+	},
+	[24] = {
+		["id"] = 24,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[25] = {
+		["appraisalId"] = 1032,
+		["id"] = 25,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[26] = {
+		["appraisalId"] = 1040,
+		["id"] = 26,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+		},
+	},
+	[27] = {
+		["appraisalId"] = 1048,
+		["id"] = 27,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+	},
+	[28] = {
+		["appraisalId"] = 1052,
+		["id"] = 28,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+		},
+	},
+	[29] = {
+		["appraisalId"] = 2001,
+		["id"] = 29,
+		["slot"] = {
+			0,
+		},
+		["weight"] = 50,
+	},
+	[30] = {
+		["appraisalId"] = 1001,
+		["id"] = 30,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[31] = {
+		["appraisalId"] = 1013,
+		["id"] = 31,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[32] = {
+		["appraisalId"] = 1021,
+		["id"] = 32,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[33] = {
+		["appraisalId"] = 1029,
+		["id"] = 33,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[34] = {
+		["appraisalId"] = 1037,
+		["id"] = 34,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[35] = {
+		["appraisalId"] = 1045,
+		["id"] = 35,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[36] = {
+		["appraisalId"] = 1049,
+		["id"] = 36,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 20,
+	},
+	[37] = {
+		["appraisalId"] = 1002,
+		["id"] = 37,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[38] = {
+		["appraisalId"] = 1014,
+		["id"] = 38,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[39] = {
+		["appraisalId"] = 1022,
+		["id"] = 39,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[40] = {
+		["appraisalId"] = 1030,
+		["id"] = 40,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[41] = {
+		["appraisalId"] = 1038,
+		["id"] = 41,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[42] = {
+		["appraisalId"] = 1046,
+		["id"] = 42,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[43] = {
+		["appraisalId"] = 1050,
+		["id"] = 43,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 30,
+	},
+	[44] = {
+		["appraisalId"] = 1003,
+		["id"] = 44,
+		["slot"] = {
+			1,
+		},
+	},
+	[45] = {
+		["appraisalId"] = 1015,
+		["id"] = 45,
+		["slot"] = {
+			1,
+		},
+	},
+	[46] = {
+		["appraisalId"] = 1023,
+		["id"] = 46,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[47] = {
+		["appraisalId"] = 1031,
+		["id"] = 47,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[48] = {
+		["appraisalId"] = 1039,
+		["id"] = 48,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[49] = {
+		["appraisalId"] = 1047,
+		["id"] = 49,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+	},
+	[50] = {
+		["appraisalId"] = 1051,
+		["id"] = 50,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+	},
+	[51] = {
+		["appraisalId"] = 1004,
+		["id"] = 51,
+		["slot"] = {
+			1,
+		},
+	},
+	[52] = {
+		["appraisalId"] = 1016,
+		["id"] = 52,
+		["slot"] = {
+			1,
+		},
+	},
+	[53] = {
+		["id"] = 53,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[54] = {
+		["appraisalId"] = 1032,
+		["id"] = 54,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[55] = {
+		["appraisalId"] = 1040,
+		["id"] = 55,
+		["minLevel"] = 60,
+		["slot"] = {
+			1,
+		},
+	},
+	[56] = {
+		["appraisalId"] = 1048,
+		["id"] = 56,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+	},
+	[57] = {
+		["appraisalId"] = 1052,
+		["id"] = 57,
+		["minLevel"] = 80,
+		["slot"] = {
+			1,
+		},
+	},
+	[58] = {
+		["appraisalId"] = 2007,
+		["id"] = 58,
+		["slot"] = {
+			1,
+		},
+		["weight"] = 50,
+	},
+	[59] = {
+		["appraisalId"] = 1001,
+		["id"] = 59,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[60] = {
+		["appraisalId"] = 1013,
+		["id"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[61] = {
+		["appraisalId"] = 1021,
+		["id"] = 61,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[62] = {
+		["appraisalId"] = 1029,
+		["id"] = 62,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[63] = {
+		["appraisalId"] = 1037,
+		["id"] = 63,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[64] = {
+		["appraisalId"] = 1045,
+		["id"] = 64,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[65] = {
+		["appraisalId"] = 1049,
+		["id"] = 65,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 20,
+	},
+	[66] = {
+		["appraisalId"] = 1002,
+		["id"] = 66,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[67] = {
+		["appraisalId"] = 1014,
+		["id"] = 67,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[68] = {
+		["appraisalId"] = 1022,
+		["id"] = 68,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[69] = {
+		["appraisalId"] = 1030,
+		["id"] = 69,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[70] = {
+		["appraisalId"] = 1038,
+		["id"] = 70,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[71] = {
+		["appraisalId"] = 1046,
+		["id"] = 71,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[72] = {
+		["appraisalId"] = 1050,
+		["id"] = 72,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 30,
+	},
+	[73] = {
+		["appraisalId"] = 1003,
+		["id"] = 73,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[74] = {
+		["appraisalId"] = 1015,
+		["id"] = 74,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[75] = {
+		["appraisalId"] = 1023,
+		["id"] = 75,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[76] = {
+		["appraisalId"] = 1031,
+		["id"] = 76,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[77] = {
+		["appraisalId"] = 1039,
+		["id"] = 77,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[78] = {
+		["appraisalId"] = 1047,
+		["id"] = 78,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[79] = {
+		["appraisalId"] = 1051,
+		["id"] = 79,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[80] = {
+		["appraisalId"] = 1004,
+		["id"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[81] = {
+		["appraisalId"] = 1016,
+		["id"] = 81,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[82] = {
+		["id"] = 82,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[83] = {
+		["appraisalId"] = 1032,
+		["id"] = 83,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[84] = {
+		["appraisalId"] = 1040,
+		["id"] = 84,
+		["minLevel"] = 60,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[85] = {
+		["appraisalId"] = 1048,
+		["id"] = 85,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[86] = {
+		["appraisalId"] = 1052,
+		["id"] = 86,
+		["minLevel"] = 80,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[87] = {
+		["appraisalId"] = 2008,
+		["id"] = 87,
+		["slot"] = {
+			0,
+			1,
+		},
+		["weight"] = 50,
+	},
+	[88] = {
+		["appraisalId"] = 1005,
+		["id"] = 88,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[89] = {
+		["appraisalId"] = 1009,
+		["id"] = 89,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[90] = {
+		["appraisalId"] = 1017,
+		["id"] = 90,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[91] = {
+		["appraisalId"] = 1025,
+		["id"] = 91,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[92] = {
+		["appraisalId"] = 1033,
+		["id"] = 92,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[93] = {
+		["appraisalId"] = 1041,
+		["id"] = 93,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 20,
+	},
+	[94] = {
+		["appraisalId"] = 1006,
+		["id"] = 94,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[95] = {
+		["appraisalId"] = 1010,
+		["id"] = 95,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[96] = {
+		["appraisalId"] = 1018,
+		["id"] = 96,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[97] = {
+		["appraisalId"] = 1026,
+		["id"] = 97,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[98] = {
+		["appraisalId"] = 1034,
+		["id"] = 98,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[99] = {
+		["appraisalId"] = 1042,
+		["id"] = 99,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 30,
+	},
+	[100] = {
+		["appraisalId"] = 1007,
+		["id"] = 100,
+		["slot"] = {
+			2,
+		},
+	},
+	[101] = {
+		["appraisalId"] = 1011,
+		["id"] = 101,
+		["slot"] = {
+			2,
+		},
+	},
+	[102] = {
+		["appraisalId"] = 1019,
+		["id"] = 102,
+		["slot"] = {
+			2,
+		},
+	},
+	[103] = {
+		["appraisalId"] = 1027,
+		["id"] = 103,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+	},
+	[104] = {
+		["appraisalId"] = 1035,
+		["id"] = 104,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+	},
+	[105] = {
+		["appraisalId"] = 1043,
+		["id"] = 105,
+		["slot"] = {
+			2,
+		},
+	},
+	[106] = {
+		["appraisalId"] = 1008,
+		["id"] = 106,
+		["slot"] = {
+			2,
+		},
+	},
+	[107] = {
+		["appraisalId"] = 1012,
+		["id"] = 107,
+		["slot"] = {
+			2,
+		},
+	},
+	[108] = {
+		["appraisalId"] = 1020,
+		["id"] = 108,
+		["slot"] = {
+			2,
+		},
+	},
+	[109] = {
+		["appraisalId"] = 1028,
+		["id"] = 109,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+	},
+	[110] = {
+		["appraisalId"] = 1036,
+		["id"] = 110,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+	},
+	[111] = {
+		["appraisalId"] = 1044,
+		["id"] = 111,
+		["slot"] = {
+			2,
+		},
+	},
+	[112] = {
+		["appraisalId"] = 2003,
+		["id"] = 112,
+		["minLevel"] = 60,
+		["slot"] = {
+			2,
+		},
+		["weight"] = 50,
+	},
+	[113] = {
+		["appraisalId"] = 1005,
+		["id"] = 113,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[114] = {
+		["appraisalId"] = 1009,
+		["id"] = 114,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[115] = {
+		["appraisalId"] = 1017,
+		["id"] = 115,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[116] = {
+		["appraisalId"] = 1025,
+		["id"] = 116,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[117] = {
+		["appraisalId"] = 1033,
+		["id"] = 117,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[118] = {
+		["appraisalId"] = 1053,
+		["id"] = 118,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 20,
+	},
+	[119] = {
+		["appraisalId"] = 1006,
+		["id"] = 119,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[120] = {
+		["appraisalId"] = 1010,
+		["id"] = 120,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[121] = {
+		["appraisalId"] = 1018,
+		["id"] = 121,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[122] = {
+		["appraisalId"] = 1026,
+		["id"] = 122,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[123] = {
+		["appraisalId"] = 1034,
+		["id"] = 123,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[124] = {
+		["appraisalId"] = 1054,
+		["id"] = 124,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 30,
+	},
+	[125] = {
+		["appraisalId"] = 1007,
+		["id"] = 125,
+		["slot"] = {
+			3,
+		},
+	},
+	[126] = {
+		["appraisalId"] = 1011,
+		["id"] = 126,
+		["slot"] = {
+			3,
+		},
+	},
+	[127] = {
+		["appraisalId"] = 1019,
+		["id"] = 127,
+		["slot"] = {
+			3,
+		},
+	},
+	[128] = {
+		["appraisalId"] = 1027,
+		["id"] = 128,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+	},
+	[129] = {
+		["appraisalId"] = 1035,
+		["id"] = 129,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+	},
+	[130] = {
+		["appraisalId"] = 1055,
+		["id"] = 130,
+		["slot"] = {
+			3,
+		},
+	},
+	[131] = {
+		["appraisalId"] = 1008,
+		["id"] = 131,
+		["slot"] = {
+			3,
+		},
+	},
+	[132] = {
+		["appraisalId"] = 1012,
+		["id"] = 132,
+		["slot"] = {
+			3,
+		},
+	},
+	[133] = {
+		["appraisalId"] = 1020,
+		["id"] = 133,
+		["slot"] = {
+			3,
+		},
+	},
+	[134] = {
+		["appraisalId"] = 1028,
+		["id"] = 134,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+	},
+	[135] = {
+		["appraisalId"] = 1036,
+		["id"] = 135,
+		["minLevel"] = 60,
+		["slot"] = {
+			3,
+		},
+	},
+	[136] = {
+		["appraisalId"] = 1056,
+		["id"] = 136,
+		["slot"] = {
+			3,
+		},
+	},
+	[137] = {
+		["appraisalId"] = 2005,
+		["id"] = 137,
+		["minLevel"] = 80,
+		["slot"] = {
+			3,
+		},
+		["weight"] = 50,
+	},
+	[138] = {
+		["appraisalId"] = 1005,
+		["id"] = 138,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[139] = {
+		["appraisalId"] = 1009,
+		["id"] = 139,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[140] = {
+		["appraisalId"] = 1017,
+		["id"] = 140,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[141] = {
+		["appraisalId"] = 1025,
+		["id"] = 141,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[142] = {
+		["appraisalId"] = 1033,
+		["id"] = 142,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[143] = {
+		["appraisalId"] = 1057,
+		["id"] = 143,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 20,
+	},
+	[144] = {
+		["appraisalId"] = 1006,
+		["id"] = 144,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[145] = {
+		["appraisalId"] = 1010,
+		["id"] = 145,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[146] = {
+		["appraisalId"] = 1018,
+		["id"] = 146,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[147] = {
+		["appraisalId"] = 1026,
+		["id"] = 147,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[148] = {
+		["appraisalId"] = 1034,
+		["id"] = 148,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[149] = {
+		["appraisalId"] = 1058,
+		["id"] = 149,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 30,
+	},
+	[150] = {
+		["appraisalId"] = 1007,
+		["id"] = 150,
+		["slot"] = {
+			4,
+		},
+	},
+	[151] = {
+		["appraisalId"] = 1011,
+		["id"] = 151,
+		["slot"] = {
+			4,
+		},
+	},
+	[152] = {
+		["appraisalId"] = 1019,
+		["id"] = 152,
+		["slot"] = {
+			4,
+		},
+	},
+	[153] = {
+		["appraisalId"] = 1027,
+		["id"] = 153,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+	},
+	[154] = {
+		["appraisalId"] = 1035,
+		["id"] = 154,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+	},
+	[155] = {
+		["appraisalId"] = 1059,
+		["id"] = 155,
+		["slot"] = {
+			4,
+		},
+	},
+	[156] = {
+		["appraisalId"] = 1008,
+		["id"] = 156,
+		["slot"] = {
+			4,
+		},
+	},
+	[157] = {
+		["appraisalId"] = 1012,
+		["id"] = 157,
+		["slot"] = {
+			4,
+		},
+	},
+	[158] = {
+		["appraisalId"] = 1020,
+		["id"] = 158,
+		["slot"] = {
+			4,
+		},
+	},
+	[159] = {
+		["appraisalId"] = 1028,
+		["id"] = 159,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+	},
+	[160] = {
+		["appraisalId"] = 1036,
+		["id"] = 160,
+		["minLevel"] = 60,
+		["slot"] = {
+			4,
+		},
+	},
+	[161] = {
+		["appraisalId"] = 1060,
+		["id"] = 161,
+		["slot"] = {
+			4,
+		},
+	},
+	[162] = {
+		["appraisalId"] = 2004,
+		["id"] = 162,
+		["minLevel"] = 70,
+		["slot"] = {
+			4,
+		},
+		["weight"] = 50,
+	},
+	[163] = {
+		["appraisalId"] = 1001,
+		["id"] = 163,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[164] = {
+		["appraisalId"] = 1013,
+		["id"] = 164,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[165] = {
+		["appraisalId"] = 1021,
+		["id"] = 165,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[166] = {
+		["appraisalId"] = 1037,
+		["id"] = 166,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[167] = {
+		["appraisalId"] = 1045,
+		["id"] = 167,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[168] = {
+		["appraisalId"] = 1049,
+		["id"] = 168,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 20,
+	},
+	[169] = {
+		["appraisalId"] = 1002,
+		["id"] = 169,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[170] = {
+		["appraisalId"] = 1014,
+		["id"] = 170,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[171] = {
+		["appraisalId"] = 1022,
+		["id"] = 171,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[172] = {
+		["appraisalId"] = 1038,
+		["id"] = 172,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[173] = {
+		["appraisalId"] = 1046,
+		["id"] = 173,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[174] = {
+		["appraisalId"] = 1050,
+		["id"] = 174,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 30,
+	},
+	[175] = {
+		["appraisalId"] = 1003,
+		["id"] = 175,
+		["slot"] = {
+			5,
+		},
+	},
+	[176] = {
+		["appraisalId"] = 1015,
+		["id"] = 176,
+		["slot"] = {
+			5,
+		},
+	},
+	[177] = {
+		["appraisalId"] = 1023,
+		["id"] = 177,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+	},
+	[178] = {
+		["appraisalId"] = 1039,
+		["id"] = 178,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+	},
+	[179] = {
+		["appraisalId"] = 1047,
+		["id"] = 179,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+	},
+	[180] = {
+		["appraisalId"] = 1051,
+		["id"] = 180,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+	},
+	[181] = {
+		["appraisalId"] = 1004,
+		["id"] = 181,
+		["slot"] = {
+			5,
+		},
+	},
+	[182] = {
+		["appraisalId"] = 1016,
+		["id"] = 182,
+		["slot"] = {
+			5,
+		},
+	},
+	[183] = {
+		["id"] = 183,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+	},
+	[184] = {
+		["appraisalId"] = 1040,
+		["id"] = 184,
+		["minLevel"] = 60,
+		["slot"] = {
+			5,
+		},
+	},
+	[185] = {
+		["appraisalId"] = 1048,
+		["id"] = 185,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+	},
+	[186] = {
+		["appraisalId"] = 1052,
+		["id"] = 186,
+		["minLevel"] = 80,
+		["slot"] = {
+			5,
+		},
+	},
+	[187] = {
+		["appraisalId"] = 2002,
+		["id"] = 187,
+		["minLevel"] = 50,
+		["slot"] = {
+			5,
+		},
+		["weight"] = 50,
+	},
+}
+local baseTable = 
+{
+	["appraisalId"] = 1024,
+	["minLevel"] = 40,
+	["weight"] = 40,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

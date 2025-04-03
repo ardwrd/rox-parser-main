@@ -1,0 +1,28 @@
+local table = {
+	[1] = {
+		["Id"] = 1,
+		["LowSum"] = 24,
+		["Quality"] = 1,
+		["TopSum"] = 24,
+	},
+	[4] = {
+		["Id"] = 4,
+		["LowSum"] = 72,
+		["Quality"] = 2,
+		["TopSum"] = 72,
+	},
+	[7] = {
+		["Id"] = 7,
+		["LowSum"] = 144,
+		["Quality"] = 3,
+		["TopSum"] = 144,
+	},
+}
+local baseTable = 
+{
+	["FavorNum"] = 1,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

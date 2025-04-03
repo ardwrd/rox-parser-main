@@ -1,0 +1,750 @@
+local table = {
+	[1] = {
+		["attrVal"] = 1,
+		["sumPoint"] = 0,
+	},
+	[2] = {
+		["attrVal"] = 2,
+		["sumPoint"] = 2,
+	},
+	[3] = {
+		["attrVal"] = 3,
+		["sumPoint"] = 4,
+	},
+	[4] = {
+		["attrVal"] = 4,
+		["sumPoint"] = 6,
+	},
+	[5] = {
+		["attrVal"] = 5,
+		["sumPoint"] = 8,
+	},
+	[6] = {
+		["attrVal"] = 6,
+		["sumPoint"] = 10,
+	},
+	[7] = {
+		["attrVal"] = 7,
+		["sumPoint"] = 12,
+	},
+	[8] = {
+		["attrVal"] = 8,
+		["sumPoint"] = 14,
+	},
+	[9] = {
+		["attrVal"] = 9,
+		["sumPoint"] = 16,
+	},
+	[10] = {
+		["attrVal"] = 10,
+		["sumPoint"] = 18,
+	},
+	[11] = {
+		["attrVal"] = 11,
+		["incrPoint"] = 3,
+		["sumPoint"] = 20,
+	},
+	[12] = {
+		["attrVal"] = 12,
+		["incrPoint"] = 3,
+		["sumPoint"] = 23,
+	},
+	[13] = {
+		["attrVal"] = 13,
+		["incrPoint"] = 3,
+		["sumPoint"] = 26,
+	},
+	[14] = {
+		["attrVal"] = 14,
+		["incrPoint"] = 3,
+		["sumPoint"] = 29,
+	},
+	[15] = {
+		["attrVal"] = 15,
+		["incrPoint"] = 3,
+		["sumPoint"] = 32,
+	},
+	[16] = {
+		["attrVal"] = 16,
+		["incrPoint"] = 3,
+		["sumPoint"] = 35,
+	},
+	[17] = {
+		["attrVal"] = 17,
+		["incrPoint"] = 3,
+		["sumPoint"] = 38,
+	},
+	[18] = {
+		["attrVal"] = 18,
+		["incrPoint"] = 3,
+		["sumPoint"] = 41,
+	},
+	[19] = {
+		["attrVal"] = 19,
+		["incrPoint"] = 3,
+		["sumPoint"] = 44,
+	},
+	[20] = {
+		["attrVal"] = 20,
+		["incrPoint"] = 3,
+		["sumPoint"] = 47,
+	},
+	[21] = {
+		["attrVal"] = 21,
+		["incrPoint"] = 4,
+		["sumPoint"] = 50,
+	},
+	[22] = {
+		["attrVal"] = 22,
+		["incrPoint"] = 4,
+		["sumPoint"] = 54,
+	},
+	[23] = {
+		["attrVal"] = 23,
+		["incrPoint"] = 4,
+		["sumPoint"] = 58,
+	},
+	[24] = {
+		["attrVal"] = 24,
+		["incrPoint"] = 4,
+		["sumPoint"] = 62,
+	},
+	[25] = {
+		["attrVal"] = 25,
+		["incrPoint"] = 4,
+		["sumPoint"] = 66,
+	},
+	[26] = {
+		["attrVal"] = 26,
+		["incrPoint"] = 4,
+		["sumPoint"] = 70,
+	},
+	[27] = {
+		["attrVal"] = 27,
+		["incrPoint"] = 4,
+		["sumPoint"] = 74,
+	},
+	[28] = {
+		["attrVal"] = 28,
+		["incrPoint"] = 4,
+		["sumPoint"] = 78,
+	},
+	[29] = {
+		["attrVal"] = 29,
+		["incrPoint"] = 4,
+		["sumPoint"] = 82,
+	},
+	[30] = {
+		["attrVal"] = 30,
+		["incrPoint"] = 4,
+		["sumPoint"] = 86,
+	},
+	[31] = {
+		["attrVal"] = 31,
+		["incrPoint"] = 5,
+		["sumPoint"] = 90,
+	},
+	[32] = {
+		["attrVal"] = 32,
+		["incrPoint"] = 5,
+		["sumPoint"] = 95,
+	},
+	[33] = {
+		["attrVal"] = 33,
+		["incrPoint"] = 5,
+		["sumPoint"] = 100,
+	},
+	[34] = {
+		["attrVal"] = 34,
+		["incrPoint"] = 5,
+		["sumPoint"] = 105,
+	},
+	[35] = {
+		["attrVal"] = 35,
+		["incrPoint"] = 5,
+		["sumPoint"] = 110,
+	},
+	[36] = {
+		["attrVal"] = 36,
+		["incrPoint"] = 5,
+		["sumPoint"] = 115,
+	},
+	[37] = {
+		["attrVal"] = 37,
+		["incrPoint"] = 5,
+		["sumPoint"] = 120,
+	},
+	[38] = {
+		["attrVal"] = 38,
+		["incrPoint"] = 5,
+		["sumPoint"] = 125,
+	},
+	[39] = {
+		["attrVal"] = 39,
+		["incrPoint"] = 5,
+		["sumPoint"] = 130,
+	},
+	[40] = {
+		["attrVal"] = 40,
+		["incrPoint"] = 5,
+		["sumPoint"] = 135,
+	},
+	[41] = {
+		["attrVal"] = 41,
+		["incrPoint"] = 6,
+		["sumPoint"] = 140,
+	},
+	[42] = {
+		["attrVal"] = 42,
+		["incrPoint"] = 6,
+		["sumPoint"] = 146,
+	},
+	[43] = {
+		["attrVal"] = 43,
+		["incrPoint"] = 6,
+		["sumPoint"] = 152,
+	},
+	[44] = {
+		["attrVal"] = 44,
+		["incrPoint"] = 6,
+		["sumPoint"] = 158,
+	},
+	[45] = {
+		["attrVal"] = 45,
+		["incrPoint"] = 6,
+		["sumPoint"] = 164,
+	},
+	[46] = {
+		["attrVal"] = 46,
+		["incrPoint"] = 6,
+		["sumPoint"] = 170,
+	},
+	[47] = {
+		["attrVal"] = 47,
+		["incrPoint"] = 6,
+		["sumPoint"] = 176,
+	},
+	[48] = {
+		["attrVal"] = 48,
+		["incrPoint"] = 6,
+		["sumPoint"] = 182,
+	},
+	[49] = {
+		["attrVal"] = 49,
+		["incrPoint"] = 6,
+		["sumPoint"] = 188,
+	},
+	[50] = {
+		["attrVal"] = 50,
+		["incrPoint"] = 6,
+		["sumPoint"] = 194,
+	},
+	[51] = {
+		["attrVal"] = 51,
+		["incrPoint"] = 7,
+		["sumPoint"] = 200,
+	},
+	[52] = {
+		["attrVal"] = 52,
+		["incrPoint"] = 7,
+		["sumPoint"] = 207,
+	},
+	[53] = {
+		["attrVal"] = 53,
+		["incrPoint"] = 7,
+		["sumPoint"] = 214,
+	},
+	[54] = {
+		["attrVal"] = 54,
+		["incrPoint"] = 7,
+		["sumPoint"] = 221,
+	},
+	[55] = {
+		["attrVal"] = 55,
+		["incrPoint"] = 7,
+		["sumPoint"] = 228,
+	},
+	[56] = {
+		["attrVal"] = 56,
+		["incrPoint"] = 7,
+		["sumPoint"] = 235,
+	},
+	[57] = {
+		["attrVal"] = 57,
+		["incrPoint"] = 7,
+		["sumPoint"] = 242,
+	},
+	[58] = {
+		["attrVal"] = 58,
+		["incrPoint"] = 7,
+		["sumPoint"] = 249,
+	},
+	[59] = {
+		["attrVal"] = 59,
+		["incrPoint"] = 7,
+		["sumPoint"] = 256,
+	},
+	[60] = {
+		["attrVal"] = 60,
+		["incrPoint"] = 7,
+		["sumPoint"] = 263,
+	},
+	[61] = {
+		["attrVal"] = 61,
+		["incrPoint"] = 8,
+		["sumPoint"] = 270,
+	},
+	[62] = {
+		["attrVal"] = 62,
+		["incrPoint"] = 8,
+		["sumPoint"] = 278,
+	},
+	[63] = {
+		["attrVal"] = 63,
+		["incrPoint"] = 8,
+		["sumPoint"] = 286,
+	},
+	[64] = {
+		["attrVal"] = 64,
+		["incrPoint"] = 8,
+		["sumPoint"] = 294,
+	},
+	[65] = {
+		["attrVal"] = 65,
+		["incrPoint"] = 8,
+		["sumPoint"] = 302,
+	},
+	[66] = {
+		["attrVal"] = 66,
+		["incrPoint"] = 8,
+		["sumPoint"] = 310,
+	},
+	[67] = {
+		["attrVal"] = 67,
+		["incrPoint"] = 8,
+		["sumPoint"] = 318,
+	},
+	[68] = {
+		["attrVal"] = 68,
+		["incrPoint"] = 8,
+		["sumPoint"] = 326,
+	},
+	[69] = {
+		["attrVal"] = 69,
+		["incrPoint"] = 8,
+		["sumPoint"] = 334,
+	},
+	[70] = {
+		["attrVal"] = 70,
+		["incrPoint"] = 8,
+		["sumPoint"] = 342,
+	},
+	[71] = {
+		["attrVal"] = 71,
+		["incrPoint"] = 9,
+		["sumPoint"] = 350,
+	},
+	[72] = {
+		["attrVal"] = 72,
+		["incrPoint"] = 9,
+		["sumPoint"] = 359,
+	},
+	[73] = {
+		["attrVal"] = 73,
+		["incrPoint"] = 9,
+		["sumPoint"] = 368,
+	},
+	[74] = {
+		["attrVal"] = 74,
+		["incrPoint"] = 9,
+		["sumPoint"] = 377,
+	},
+	[75] = {
+		["attrVal"] = 75,
+		["incrPoint"] = 9,
+		["sumPoint"] = 386,
+	},
+	[76] = {
+		["attrVal"] = 76,
+		["incrPoint"] = 9,
+		["sumPoint"] = 395,
+	},
+	[77] = {
+		["attrVal"] = 77,
+		["incrPoint"] = 9,
+		["sumPoint"] = 404,
+	},
+	[78] = {
+		["attrVal"] = 78,
+		["incrPoint"] = 9,
+		["sumPoint"] = 413,
+	},
+	[79] = {
+		["attrVal"] = 79,
+		["incrPoint"] = 9,
+		["sumPoint"] = 422,
+	},
+	[80] = {
+		["attrVal"] = 80,
+		["incrPoint"] = 9,
+		["sumPoint"] = 431,
+	},
+	[81] = {
+		["attrVal"] = 81,
+		["incrPoint"] = 10,
+		["sumPoint"] = 440,
+	},
+	[82] = {
+		["attrVal"] = 82,
+		["incrPoint"] = 10,
+		["sumPoint"] = 450,
+	},
+	[83] = {
+		["attrVal"] = 83,
+		["incrPoint"] = 10,
+		["sumPoint"] = 460,
+	},
+	[84] = {
+		["attrVal"] = 84,
+		["incrPoint"] = 10,
+		["sumPoint"] = 470,
+	},
+	[85] = {
+		["attrVal"] = 85,
+		["incrPoint"] = 10,
+		["sumPoint"] = 480,
+	},
+	[86] = {
+		["attrVal"] = 86,
+		["incrPoint"] = 10,
+		["sumPoint"] = 490,
+	},
+	[87] = {
+		["attrVal"] = 87,
+		["incrPoint"] = 10,
+		["sumPoint"] = 500,
+	},
+	[88] = {
+		["attrVal"] = 88,
+		["incrPoint"] = 10,
+		["sumPoint"] = 510,
+	},
+	[89] = {
+		["attrVal"] = 89,
+		["incrPoint"] = 10,
+		["sumPoint"] = 520,
+	},
+	[90] = {
+		["attrVal"] = 90,
+		["incrPoint"] = 10,
+		["sumPoint"] = 530,
+	},
+	[91] = {
+		["attrVal"] = 91,
+		["incrPoint"] = 11,
+		["sumPoint"] = 540,
+	},
+	[92] = {
+		["attrVal"] = 92,
+		["incrPoint"] = 11,
+		["sumPoint"] = 551,
+	},
+	[93] = {
+		["attrVal"] = 93,
+		["incrPoint"] = 11,
+		["sumPoint"] = 562,
+	},
+	[94] = {
+		["attrVal"] = 94,
+		["incrPoint"] = 11,
+		["sumPoint"] = 573,
+	},
+	[95] = {
+		["attrVal"] = 95,
+		["incrPoint"] = 11,
+		["sumPoint"] = 584,
+	},
+	[96] = {
+		["attrVal"] = 96,
+		["incrPoint"] = 11,
+		["sumPoint"] = 595,
+	},
+	[97] = {
+		["attrVal"] = 97,
+		["incrPoint"] = 11,
+		["sumPoint"] = 606,
+	},
+	[98] = {
+		["attrVal"] = 98,
+		["incrPoint"] = 11,
+		["sumPoint"] = 617,
+	},
+	[99] = {
+		["attrVal"] = 99,
+		["incrPoint"] = 11,
+		["sumPoint"] = 628,
+	},
+	[100] = {
+		["attrVal"] = 100,
+		["incrPoint"] = 11,
+		["sumPoint"] = 639,
+	},
+	[101] = {
+		["attrVal"] = 101,
+		["incrPoint"] = 12,
+		["sumPoint"] = 650,
+	},
+	[102] = {
+		["attrVal"] = 102,
+		["incrPoint"] = 12,
+		["sumPoint"] = 662,
+	},
+	[103] = {
+		["attrVal"] = 103,
+		["incrPoint"] = 12,
+		["sumPoint"] = 674,
+	},
+	[104] = {
+		["attrVal"] = 104,
+		["incrPoint"] = 12,
+		["sumPoint"] = 686,
+	},
+	[105] = {
+		["attrVal"] = 105,
+		["incrPoint"] = 12,
+		["sumPoint"] = 698,
+	},
+	[106] = {
+		["attrVal"] = 106,
+		["incrPoint"] = 12,
+		["sumPoint"] = 710,
+	},
+	[107] = {
+		["attrVal"] = 107,
+		["incrPoint"] = 12,
+		["sumPoint"] = 722,
+	},
+	[108] = {
+		["attrVal"] = 108,
+		["incrPoint"] = 12,
+		["sumPoint"] = 734,
+	},
+	[109] = {
+		["attrVal"] = 109,
+		["incrPoint"] = 12,
+		["sumPoint"] = 746,
+	},
+	[110] = {
+		["attrVal"] = 110,
+		["incrPoint"] = 12,
+		["sumPoint"] = 758,
+	},
+	[111] = {
+		["attrVal"] = 111,
+		["incrPoint"] = 13,
+		["sumPoint"] = 770,
+	},
+	[112] = {
+		["attrVal"] = 112,
+		["incrPoint"] = 13,
+		["sumPoint"] = 783,
+	},
+	[113] = {
+		["attrVal"] = 113,
+		["incrPoint"] = 13,
+		["sumPoint"] = 796,
+	},
+	[114] = {
+		["attrVal"] = 114,
+		["incrPoint"] = 13,
+		["sumPoint"] = 809,
+	},
+	[115] = {
+		["attrVal"] = 115,
+		["incrPoint"] = 13,
+		["sumPoint"] = 822,
+	},
+	[116] = {
+		["attrVal"] = 116,
+		["incrPoint"] = 13,
+		["sumPoint"] = 835,
+	},
+	[117] = {
+		["attrVal"] = 117,
+		["incrPoint"] = 13,
+		["sumPoint"] = 848,
+	},
+	[118] = {
+		["attrVal"] = 118,
+		["incrPoint"] = 13,
+		["sumPoint"] = 861,
+	},
+	[119] = {
+		["attrVal"] = 119,
+		["incrPoint"] = 13,
+		["sumPoint"] = 874,
+	},
+	[120] = {
+		["attrVal"] = 120,
+		["incrPoint"] = 13,
+		["sumPoint"] = 887,
+	},
+	[121] = {
+		["attrVal"] = 121,
+		["incrPoint"] = 14,
+		["sumPoint"] = 900,
+	},
+	[122] = {
+		["attrVal"] = 122,
+		["incrPoint"] = 14,
+		["sumPoint"] = 914,
+	},
+	[123] = {
+		["attrVal"] = 123,
+		["incrPoint"] = 14,
+		["sumPoint"] = 928,
+	},
+	[124] = {
+		["attrVal"] = 124,
+		["incrPoint"] = 14,
+		["sumPoint"] = 942,
+	},
+	[125] = {
+		["attrVal"] = 125,
+		["incrPoint"] = 14,
+		["sumPoint"] = 956,
+	},
+	[126] = {
+		["attrVal"] = 126,
+		["incrPoint"] = 14,
+		["sumPoint"] = 970,
+	},
+	[127] = {
+		["attrVal"] = 127,
+		["incrPoint"] = 14,
+		["sumPoint"] = 984,
+	},
+	[128] = {
+		["attrVal"] = 128,
+		["incrPoint"] = 14,
+		["sumPoint"] = 998,
+	},
+	[129] = {
+		["attrVal"] = 129,
+		["incrPoint"] = 14,
+		["sumPoint"] = 1012,
+	},
+	[130] = {
+		["attrVal"] = 130,
+		["incrPoint"] = 14,
+		["sumPoint"] = 1026,
+	},
+	[131] = {
+		["attrVal"] = 131,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1040,
+	},
+	[132] = {
+		["attrVal"] = 132,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1055,
+	},
+	[133] = {
+		["attrVal"] = 133,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1070,
+	},
+	[134] = {
+		["attrVal"] = 134,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1085,
+	},
+	[135] = {
+		["attrVal"] = 135,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1100,
+	},
+	[136] = {
+		["attrVal"] = 136,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1115,
+	},
+	[137] = {
+		["attrVal"] = 137,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1130,
+	},
+	[138] = {
+		["attrVal"] = 138,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1145,
+	},
+	[139] = {
+		["attrVal"] = 139,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1160,
+	},
+	[140] = {
+		["attrVal"] = 140,
+		["incrPoint"] = 15,
+		["sumPoint"] = 1175,
+	},
+	[141] = {
+		["attrVal"] = 141,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1190,
+	},
+	[142] = {
+		["attrVal"] = 142,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1206,
+	},
+	[143] = {
+		["attrVal"] = 143,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1222,
+	},
+	[144] = {
+		["attrVal"] = 144,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1238,
+	},
+	[145] = {
+		["attrVal"] = 145,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1254,
+	},
+	[146] = {
+		["attrVal"] = 146,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1270,
+	},
+	[147] = {
+		["attrVal"] = 147,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1286,
+	},
+	[148] = {
+		["attrVal"] = 148,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1302,
+	},
+	[149] = {
+		["attrVal"] = 149,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1318,
+	},
+	[150] = {
+		["attrVal"] = 150,
+		["incrPoint"] = 16,
+		["sumPoint"] = 1334,
+	},
+}
+local baseTable = 
+{
+	["incrPoint"] = 2,
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;
