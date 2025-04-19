@@ -1,0 +1,908 @@
+local table = {
+	[1] = {
+		["IntimacyExp"] = {
+			100,
+			200,
+			400,
+			0,
+		},
+		["IntimacyLevel"] = 1,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[2] = {
+		["IntimacyExp"] = {
+			150,
+			300,
+			650,
+			0,
+		},
+		["IntimacyLevel"] = 2,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[3] = {
+		["IntimacyExp"] = {
+			200,
+			400,
+			900,
+			0,
+		},
+		["IntimacyLevel"] = 3,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[4] = {
+		["IntimacyExp"] = {
+			250,
+			500,
+			1150,
+			0,
+		},
+		["IntimacyLevel"] = 4,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[5] = {
+		["IntimacyExp"] = {
+			300,
+			600,
+			1400,
+			0,
+		},
+		["IntimacyLevel"] = 5,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[6] = {
+		["IntimacyExp"] = {
+			350,
+			700,
+			1650,
+			0,
+		},
+		["IntimacyLevel"] = 6,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[7] = {
+		["IntimacyExp"] = {
+			400,
+			800,
+			1900,
+			0,
+		},
+		["IntimacyLevel"] = 7,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[8] = {
+		["IntimacyExp"] = {
+			450,
+			900,
+			2150,
+			0,
+		},
+		["IntimacyLevel"] = 8,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[9] = {
+		["IntimacyExp"] = {
+			500,
+			1000,
+			2400,
+			0,
+		},
+		["IntimacyLevel"] = 9,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[10] = {
+		["IntimacyExp"] = {
+			600,
+			1250,
+			2900,
+			0,
+		},
+		["IntimacyLevel"] = 10,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[11] = {
+		["IntimacyExp"] = {
+			700,
+			1500,
+			3400,
+			0,
+		},
+		["IntimacyLevel"] = 11,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[12] = {
+		["IntimacyExp"] = {
+			800,
+			1750,
+			3900,
+			0,
+		},
+		["IntimacyLevel"] = 12,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[13] = {
+		["IntimacyExp"] = {
+			900,
+			2000,
+			4400,
+			0,
+		},
+		["IntimacyLevel"] = 13,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[14] = {
+		["IntimacyExp"] = {
+			1000,
+			2250,
+			4900,
+			0,
+		},
+		["IntimacyLevel"] = 14,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[15] = {
+		["IntimacyExp"] = {
+			1100,
+			2500,
+			5400,
+			0,
+		},
+		["IntimacyLevel"] = 15,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[16] = {
+		["IntimacyExp"] = {
+			1200,
+			2750,
+			5900,
+			0,
+		},
+		["IntimacyLevel"] = 16,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[17] = {
+		["IntimacyExp"] = {
+			1300,
+			3000,
+			6400,
+			0,
+		},
+		["IntimacyLevel"] = 17,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[18] = {
+		["IntimacyExp"] = {
+			1400,
+			3250,
+			6900,
+			0,
+		},
+		["IntimacyLevel"] = 18,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[19] = {
+		["IntimacyExp"] = {
+			1500,
+			3500,
+			7400,
+			0,
+		},
+		["IntimacyLevel"] = 19,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[20] = {
+		["IntimacyExp"] = {
+			1750,
+			4000,
+			8400,
+			0,
+		},
+		["IntimacyLevel"] = 20,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[21] = {
+		["IntimacyExp"] = {
+			2000,
+			4500,
+			9400,
+			0,
+		},
+		["IntimacyLevel"] = 21,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[22] = {
+		["IntimacyExp"] = {
+			2250,
+			5000,
+			10400,
+			0,
+		},
+		["IntimacyLevel"] = 22,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[23] = {
+		["IntimacyExp"] = {
+			2500,
+			5500,
+			11400,
+			0,
+		},
+		["IntimacyLevel"] = 23,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[24] = {
+		["IntimacyExp"] = {
+			2750,
+			6000,
+			12400,
+			0,
+		},
+		["IntimacyLevel"] = 24,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[25] = {
+		["IntimacyExp"] = {
+			3000,
+			6500,
+			13400,
+			0,
+		},
+		["IntimacyLevel"] = 25,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[26] = {
+		["IntimacyExp"] = {
+			3250,
+			7000,
+			14400,
+			0,
+		},
+		["IntimacyLevel"] = 26,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[27] = {
+		["IntimacyExp"] = {
+			3500,
+			7500,
+			15400,
+			0,
+		},
+		["IntimacyLevel"] = 27,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[28] = {
+		["IntimacyExp"] = {
+			3750,
+			8000,
+			16400,
+			0,
+		},
+		["IntimacyLevel"] = 28,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[29] = {
+		["IntimacyExp"] = {
+			4000,
+			8500,
+			17400,
+			0,
+		},
+		["IntimacyLevel"] = 29,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[30] = {
+		["IntimacyExp"] = {
+			4500,
+			9500,
+			19900,
+			0,
+		},
+		["IntimacyLevel"] = 30,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[31] = {
+		["IntimacyExp"] = {
+			5000,
+			10500,
+			22400,
+			0,
+		},
+		["IntimacyLevel"] = 31,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[32] = {
+		["IntimacyExp"] = {
+			5500,
+			11500,
+			24900,
+			0,
+		},
+		["IntimacyLevel"] = 32,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[33] = {
+		["IntimacyExp"] = {
+			6000,
+			12500,
+			27400,
+			0,
+		},
+		["IntimacyLevel"] = 33,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[34] = {
+		["IntimacyExp"] = {
+			6500,
+			13500,
+			29900,
+			0,
+		},
+		["IntimacyLevel"] = 34,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[35] = {
+		["IntimacyExp"] = {
+			7000,
+			14500,
+			32400,
+			0,
+		},
+		["IntimacyLevel"] = 35,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[36] = {
+		["IntimacyExp"] = {
+			7500,
+			15500,
+			34900,
+			0,
+		},
+		["IntimacyLevel"] = 36,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[37] = {
+		["IntimacyExp"] = {
+			8000,
+			16500,
+			37400,
+			0,
+		},
+		["IntimacyLevel"] = 37,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[38] = {
+		["IntimacyExp"] = {
+			8500,
+			17500,
+			39900,
+			0,
+		},
+		["IntimacyLevel"] = 38,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[39] = {
+		["IntimacyExp"] = {
+			9000,
+			18500,
+			42400,
+			0,
+		},
+		["IntimacyLevel"] = 39,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[40] = {
+		["IntimacyExp"] = {
+			10000,
+			21000,
+			47400,
+			0,
+		},
+		["IntimacyLevel"] = 40,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[41] = {
+		["IntimacyExp"] = {
+			11000,
+			23500,
+			52400,
+			0,
+		},
+		["IntimacyLevel"] = 41,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[42] = {
+		["IntimacyExp"] = {
+			12000,
+			26000,
+			57400,
+			0,
+		},
+		["IntimacyLevel"] = 42,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[43] = {
+		["IntimacyExp"] = {
+			13000,
+			28500,
+			62400,
+			0,
+		},
+		["IntimacyLevel"] = 43,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[44] = {
+		["IntimacyExp"] = {
+			14000,
+			31000,
+			67400,
+			0,
+		},
+		["IntimacyLevel"] = 44,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[45] = {
+		["IntimacyExp"] = {
+			15000,
+			33500,
+			72400,
+			0,
+		},
+		["IntimacyLevel"] = 45,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[46] = {
+		["IntimacyExp"] = {
+			16000,
+			36000,
+			77400,
+			0,
+		},
+		["IntimacyLevel"] = 46,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[47] = {
+		["IntimacyExp"] = {
+			17000,
+			38500,
+			82400,
+			0,
+		},
+		["IntimacyLevel"] = 47,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[48] = {
+		["IntimacyExp"] = {
+			18000,
+			41000,
+			87400,
+			0,
+		},
+		["IntimacyLevel"] = 48,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[49] = {
+		["IntimacyExp"] = {
+			19000,
+			43500,
+			92400,
+			0,
+		},
+		["IntimacyLevel"] = 49,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[50] = {
+		["IntimacyExp"] = {
+			21500,
+			48500,
+			102400,
+			0,
+		},
+		["IntimacyLevel"] = 50,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[51] = {
+		["IntimacyExp"] = {
+			24000,
+			53500,
+			112400,
+			0,
+		},
+		["IntimacyLevel"] = 51,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[52] = {
+		["IntimacyExp"] = {
+			26500,
+			58500,
+			122400,
+			0,
+		},
+		["IntimacyLevel"] = 52,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[53] = {
+		["IntimacyExp"] = {
+			29000,
+			63500,
+			132400,
+			0,
+		},
+		["IntimacyLevel"] = 53,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[54] = {
+		["IntimacyExp"] = {
+			31500,
+			68500,
+			142400,
+			0,
+		},
+		["IntimacyLevel"] = 54,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[55] = {
+		["IntimacyExp"] = {
+			34000,
+			73500,
+			152400,
+			0,
+		},
+		["IntimacyLevel"] = 55,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[56] = {
+		["IntimacyExp"] = {
+			36500,
+			78500,
+			162400,
+			0,
+		},
+		["IntimacyLevel"] = 56,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[57] = {
+		["IntimacyExp"] = {
+			39000,
+			83500,
+			172400,
+			0,
+		},
+		["IntimacyLevel"] = 57,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[58] = {
+		["IntimacyExp"] = {
+			41500,
+			88500,
+			182400,
+			0,
+		},
+		["IntimacyLevel"] = 58,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[59] = {
+		["IntimacyExp"] = {
+			44000,
+			93500,
+			192400,
+			0,
+		},
+		["IntimacyLevel"] = 59,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+	[60] = {
+		["IntimacyExp"] = {
+			0,
+			0,
+			0,
+			0,
+		},
+		["IntimacyLevel"] = 60,
+		["Quality"] = {
+			1,
+			2,
+			3,
+			4,
+		},
+	},
+}
+local baseTable = 
+{}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;

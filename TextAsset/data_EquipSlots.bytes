@@ -1,0 +1,122 @@
+local table = {
+	[1] = {
+		["Name"] = "主手武器",
+		["SlotName"] = "SlotName_1",
+		["id"] = 1,
+		["slot"] = {
+			0,
+		},
+	},
+	[2] = {
+		["Name"] = "副手武器",
+		["SlotName"] = "SlotName_2",
+		["id"] = 2,
+		["slot"] = {
+			1,
+		},
+	},
+	[3] = {
+		["Name"] = "双手武器",
+		["SlotName"] = "SlotName_3",
+		["id"] = 3,
+		["slot"] = {
+			0,
+			1,
+		},
+	},
+	[4] = {
+		["Name"] = "盔甲",
+		["SlotName"] = "SlotName_4",
+		["id"] = 4,
+		["slot"] = {
+			2,
+		},
+	},
+	[5] = {
+		["Name"] = "肩甲",
+		["SlotName"] = "SlotName_5",
+		["id"] = 5,
+		["slot"] = {
+			3,
+		},
+	},
+	[6] = {
+		["Name"] = "鞋子",
+		["SlotName"] = "SlotName_6",
+		["id"] = 6,
+		["slot"] = {
+			4,
+		},
+	},
+	[7] = {
+		["Name"] = "饰品",
+		["SlotName"] = "SlotName_7",
+		["id"] = 7,
+		["slot"] = {
+			5,
+			6,
+		},
+	},
+	[8] = {
+		["Name"] = "头饰上段",
+		["SlotName"] = "SlotName_8",
+		["id"] = 8,
+		["slot"] = {
+			7,
+		},
+	},
+	[9] = {
+		["Name"] = "头饰中段",
+		["SlotName"] = "SlotName_9",
+		["id"] = 9,
+		["slot"] = {
+			8,
+		},
+	},
+	[10] = {
+		["Name"] = "头饰下段",
+		["SlotName"] = "SlotName_10",
+		["id"] = 10,
+		["slot"] = {
+			9,
+		},
+	},
+	[11] = {
+		["Name"] = "时装-背部",
+		["SlotName"] = "SlotName_11",
+		["id"] = 11,
+		["slot"] = {
+			10,
+		},
+	},
+	[12] = {
+		["Name"] = "时装-尾部",
+		["SlotName"] = "SlotName_12",
+		["id"] = 12,
+		["slot"] = {
+			11,
+		},
+	},
+	[13] = {
+		["SlotName"] = "SlotName_13",
+		["id"] = 13,
+		["slot"] = {
+			12,
+		},
+	},
+	[14] = {
+		["SlotName"] = "SlotName_14",
+		["id"] = 14,
+		["slot"] = {
+			13,
+		},
+	},
+}
+local baseTable = 
+{
+	["Name"] = "时装-衣服",
+}
+for _,v in pairs(table) do
+	setmetatable(v,{__index  = baseTable});
+end
+return table;
