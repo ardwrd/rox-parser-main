@@ -1,364 +1,497 @@
-local table = {
-	[83001] = {
-		["IsAlwaysHide"] = 1,
-		["Name"] = "PendantType0",
-		["iconId"] = 5000002,
-		["id"] = 83001,
-		["jobLimit"] = {
-			1510,
-			1511,
-			1512,
-			1513,
-		},
-		["skillLimit"] = {
-			1510122,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-		["type"] = 0,
-	},
-	[83002] = {
-		["IsAlwaysHide"] = 1,
-		["Name"] = "PendantType3",
-		["iconId"] = 5000035,
-		["id"] = 83002,
-		["jobLimit"] = {
-			1510,
-			1511,
-			1512,
-			1513,
-		},
-		["skillLimit"] = {
-			1513003,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-		["type"] = 0,
-	},
-	[83010] = {
-		["HideWhenMount"] = 1,
-		["Name"] = "PendantType83010",
-		["iconId"] = 5000010,
-		["id"] = 83010,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1620,
-			1621,
-			1622,
-			1010,
-			1011,
-			1012,
-			1013,
-			1613,
-			1623,
-		},
-		["skillLimit"] = {
-			1600004,
-			1010017,
-		},
-		["skillLvLimit"] = {
-			1,
-			1,
-		},
-	},
-	[83011] = {
-		["HideWhenMount"] = 1,
-		["Name"] = "PendantType83011",
-		["id"] = 83011,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1620,
-			1621,
-			1622,
-			1010,
-			1011,
-			1012,
-			1013,
-			1613,
-			1623,
-		},
-		["skillLimit"] = {
-			1600004,
-			1010017,
-		},
-		["skillLvLimit"] = {
-			1,
-			1,
-		},
-	},
-	[83060] = {
-		["Name"] = "飞机-初始机甲80038",
-		["id"] = 83060,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83063] = {
-		["Name"] = "飞机-万圣机甲80080",
-		["id"] = 83063,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83064] = {
-		["Name"] = "飞机-圣诞机甲80084",
-		["id"] = 83064,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83065] = {
-		["Name"] = "飞机-虎年机甲80089",
-		["id"] = 83065,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83066] = {
-		["Name"] = "飞机-虎年机甲80089",
-		["id"] = 83066,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83067] = {
-		["Name"] = "飞机-22年圣诞机甲",
-		["id"] = 83067,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83068] = {
-		["Name"] = "飞机-22年新年机甲",
-		["id"] = 83068,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83069] = {
-		["Name"] = "飞机-23年万圣节机甲",
-		["id"] = 83069,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83070] = {
-		["Name"] = "飞机-23年圣诞节机甲",
-		["id"] = 83070,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83071] = {
-		["Name"] = "飞机-龙年机甲",
-		["id"] = 83071,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83072] = {
-		["Name"] = "应急机甲小飞机",
-		["iconId"] = 0,
-		["id"] = 83072,
-		["jobLimit"] = {
-			1613,
-		},
-		["skillLimit"] = {
-			1613012,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83073] = {
-		["Name"] = "飞机-龙年机甲",
-		["id"] = 83073,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83074] = {
-		["Name"] = "飞机-圣诞机甲",
-		["id"] = 83074,
-		["jobLimit"] = {
-			1600,
-			1610,
-			1611,
-			1612,
-			1613,
-		},
-		["skillLimit"] = {
-			1600004,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83080] = {
-		["HideWhenMount"] = 1,
-		["iconId"] = 5083080,
-		["id"] = 83080,
-		["jobLimit"] = {
-			1620,
-			1621,
-			1622,
-			1623,
-		},
-		["skillLimit"] = {
-			1622001,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-	[83085] = {
-		["HideWhenMount"] = 1,
-		["iconId"] = 5083080,
-		["id"] = 83085,
-		["jobLimit"] = {
-			1620,
-			1621,
-			1622,
-			1623,
-		},
-		["skillLimit"] = {
-			1622001,
-		},
-		["skillLvLimit"] = {
-			1,
-		},
-	},
-}
-local baseTable = 
+return
 {
-	["HideWhenMount"] = 0,
-	["IsAlwaysHide"] = 0,
-	["Name"] = "PendantType83080",
-	["attr"] = {},
-	["iconId"] = 5000011,
-	["jobLevelLimit"] = 0,
-	["skillId"] = {},
-	["type"] = 2,
+    [83001]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=1,
+        ["Name"]="PendantType0",
+        ["attr"]={},
+        ["iconId"]=5000002,
+        ["id"]=83001,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1510,
+            1511,
+            1512,
+            1513
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1510122
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=0
+    },
+    [83002]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=1,
+        ["Name"]="PendantType3",
+        ["attr"]={},
+        ["iconId"]=5000035,
+        ["id"]=83002,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1510,
+            1511,
+            1512,
+            1513
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1513003
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=0
+    },
+    [83010]={
+        ["HideWhenMount"]=1,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="PendantType83010",
+        ["attr"]={},
+        ["iconId"]=5000010,
+        ["id"]=83010,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1620,
+            1621,
+            1622,
+            1010,
+            1011,
+            1012,
+            1013,
+            1613,
+            1623,
+            1014
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004,
+            1010017
+        },
+        ["skillLvLimit"]={
+            1,
+            1
+        },
+        ["type"]=2
+    },
+    [83011]={
+        ["HideWhenMount"]=1,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="PendantType83011",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83011,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1620,
+            1621,
+            1622,
+            1010,
+            1011,
+            1012,
+            1013,
+            1613,
+            1623,
+            1014
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004,
+            1010017
+        },
+        ["skillLvLimit"]={
+            1,
+            1
+        },
+        ["type"]=2
+    },
+    [83060]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-初始机甲80038",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83060,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83063]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-万圣机甲80080",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83063,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83064]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-圣诞机甲80084",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83064,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83065]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-虎年机甲80089",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83065,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83066]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-虎年机甲80089",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83066,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83067]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-22年圣诞机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83067,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83068]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-22年新年机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83068,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83069]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-23年万圣节机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83069,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83070]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-23年圣诞节机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83070,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83071]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-龙年机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83071,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83072]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="应急机甲小飞机",
+        ["attr"]={},
+        ["iconId"]=0,
+        ["id"]=83072,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1613012
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83073]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-龙年机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83073,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83074]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-圣诞机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83074,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83075]={
+        ["HideWhenMount"]=0,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="飞机-圣诞机甲",
+        ["attr"]={},
+        ["iconId"]=5000011,
+        ["id"]=83075,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1600,
+            1610,
+            1611,
+            1612,
+            1613
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1600004
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83080]={
+        ["HideWhenMount"]=1,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="PendantType83080",
+        ["attr"]={},
+        ["iconId"]=5083080,
+        ["id"]=83080,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1620,
+            1621,
+            1622,
+            1623
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1622001
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    },
+    [83085]={
+        ["HideWhenMount"]=1,
+        ["IsAlwaysHide"]=0,
+        ["Name"]="PendantType83080",
+        ["attr"]={},
+        ["iconId"]=5083080,
+        ["id"]=83085,
+        ["jobLevelLimit"]=0,
+        ["jobLimit"]={
+            1620,
+            1621,
+            1622,
+            1623
+        },
+        ["skillId"]={},
+        ["skillLimit"]={
+            1622001
+        },
+        ["skillLvLimit"]={
+            1
+        },
+        ["type"]=2
+    }
 }
-for _,v in pairs(table) do
-	setmetatable(v,{__index  = baseTable});
-end
-return table;

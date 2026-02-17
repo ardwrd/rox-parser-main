@@ -1,3179 +1,5177 @@
-local table = {
-	[82001] = {
-		["CatchItem"] = 10407001,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			31002,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10001,
-		["Id"] = 82001,
-		["IsFirstCatchSuccess"] = 1,
-		["Item"] = "10410001,10",
-		["Model"] = 10001,
-		["Monster"] = 10001,
-		["Name"] = "MonsterName10001",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500200",
-		["PotentialEffScale"] = 1.1,
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1003,
-		["Talent"] = "5500200",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82002] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31002,
-		["Id"] = 82002,
-		["Model"] = 31002,
-		["Name"] = "MonsterName31002",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.84,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500201",
-		["PotentialEffScale"] = 3.0,
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.5,
-		["SkillGroup"] = 1004,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500201",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82003] = {
-		["CatchItem"] = 10407002,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			31006,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10004,
-		["Id"] = 82003,
-		["IsFirstCatchSuccess"] = 1,
-		["Model"] = 10004,
-		["Monster"] = 10004,
-		["Name"] = "MonsterName10004",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.23,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500198",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.75,
-		["Talent"] = "5500198",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82004] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31006,
-		["Id"] = 82004,
-		["Model"] = 31006,
-		["Name"] = "MonsterName31006",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.4,
-			330.0,
-			0.24,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500199",
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.85,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500199",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82005] = {
-		["CatchItem"] = 10407011,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			30007,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10027,
-		["Id"] = 82005,
-		["Model"] = 10027,
-		["Monster"] = 10027,
-		["Name"] = "MonsterName10027",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.91,
-			330.0,
-			0.3,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500202",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_4",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.9,
-		["SkillGroup"] = 1005,
-		["Talent"] = "5500202",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82006] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30007,
-		["Id"] = 82006,
-		["Model"] = 30007,
-		["Name"] = "MonsterName30007",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.54,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500203",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_4",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.5,
-		["SkillGroup"] = 1006,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500203",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82007] = {
-		["CatchItem"] = 10407011,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			10149,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10010,
-		["Id"] = 82007,
-		["Model"] = 10010,
-		["Monster"] = 10010,
-		["Name"] = "MonsterName10010",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.68,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500205",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.6,
-		["SkillGroup"] = 1007,
-		["Talent"] = "5500205",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82008] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 10149,
-		["Id"] = 82008,
-		["Model"] = 10149,
-		["Name"] = "MonsterName10149",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.78,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500206",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_5",
-		["SceneModelScale"] = 0.7,
-		["SkillGroup"] = 1007,
-		["StarReturnType"] = 1,
-		["Talent"] = "5500206",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82009] = {
-		["CatchItem"] = 10407004,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			10084,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10044,
-		["Id"] = 82009,
-		["Model"] = 10044,
-		["Monster"] = 10044,
-		["Name"] = "MonsterName10044",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.78,
-			350.0,
-			0.0,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500209",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_8",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1012,
-		["Talent"] = "5500209",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82010] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 10084,
-		["Id"] = 82010,
-		["Model"] = 10084,
-		["Name"] = "MonsterName10084",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.91,
-			350.0,
-			-0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500210",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_8",
-		["SceneModelScale"] = 0.7,
-		["SkillGroup"] = 1013,
-		["StarReturnType"] = 1,
-		["Talent"] = "5500210",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82011] = {
-		["CatchItem"] = 10407004,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			10024,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10016,
-		["Id"] = 82011,
-		["Model"] = 10016,
-		["Monster"] = 10016,
-		["Name"] = "MonsterName10016",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.2,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500207",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 1,
-		["SkillGroup"] = 1010,
-		["Talent"] = "5500207",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82012] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 10024,
-		["Id"] = 82012,
-		["Model"] = 10024,
-		["Name"] = "MonsterName10024",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.27,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500208",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_2",
-		["SceneModelScale"] = 0.72,
-		["SkillGroup"] = 1011,
-		["StarReturnType"] = 1,
-		["Talent"] = "5500208",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82013] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 30008,
-		["Id"] = 82013,
-		["Model"] = 30008,
-		["Name"] = "MonsterName30008",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.3,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500204",
-		["PotentialEffScale"] = 4.0,
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.4,
-		["SkillGroup"] = 1002,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500204",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214001,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82014] = {
-		["CatchItem"] = 10407010,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10060,
-		["Id"] = 82014,
-		["Model"] = 10060,
-		["Monster"] = 10060,
-		["Name"] = "MonsterName10060",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.96,
-			330.0,
-			0.24,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500211",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_5",
-		["SceneModelScale"] = 1.3,
-		["SkillGroup"] = 1008,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500211",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82015] = {
-		["CatchItem"] = 10407027,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10085,
-		["Id"] = 82015,
-		["Model"] = 10085,
-		["Monster"] = 10085,
-		["Name"] = "MonsterName10085",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.27,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500212",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_5",
-		["SceneModelScale"] = 0.85,
-		["SkillGroup"] = 1009,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500212",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82016] = {
-		["CatchItem"] = 10407014,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10094,
-		["Id"] = 82016,
-		["Model"] = 10094,
-		["Monster"] = 10094,
-		["Name"] = "MonsterName10094",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.96,
-			330.0,
-			0.27,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500213",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_10",
-		["SceneModelScale"] = 0.75,
-		["SkillGroup"] = 1014,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500213",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82017] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 82017,
-		["Id"] = 82017,
-		["Item"] = "10410001,10",
-		["Model"] = 82017,
-		["Name"] = "MonsterName82017",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500215",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1003,
-		["Talent"] = "5500215",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214002,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82018] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 82018,
-		["Id"] = 82018,
-		["Item"] = "10410001,10",
-		["Model"] = 82018,
-		["Name"] = "MonsterName82018",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500218",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 1,
-		["Talent"] = "5500218",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214003,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82019] = {
-		["CatchItem"] = 10407011,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			31004,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10030,
-		["Id"] = 82019,
-		["Item"] = "10410001,10",
-		["Model"] = 10030,
-		["Monster"] = 10030,
-		["Name"] = "MonsterName10030",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.8,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510029",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_4",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.8,
-		["SkillGroup"] = 1015,
-		["Talent"] = "5510029",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82020] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31004,
-		["Id"] = 82020,
-		["Item"] = "10410001,10",
-		["Model"] = 31004,
-		["Name"] = "MonsterName31004",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510030",
-		["PotentialEffScale"] = 4.0,
-		["PropertyDesc"] = "Attr_4",
-		["Quality"] = 3,
-		["SkillGroup"] = 1025,
-		["StarReturnType"] = 3,
-		["Talent"] = "5510030",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82021] = {
-		["CatchItem"] = 10407028,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			31001,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10008,
-		["Id"] = 82021,
-		["Item"] = "10410001,10",
-		["Model"] = 10008,
-		["Monster"] = 10008,
-		["Name"] = "MonsterName10008",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.95,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510031",
-		["PotentialEffScale"] = 1.0,
-		["Quality"] = 1,
-		["SkillGroup"] = 1016,
-		["Talent"] = "5510031",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82022] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31001,
-		["Id"] = 82022,
-		["Item"] = "10410001,10",
-		["Model"] = 31001,
-		["Name"] = "MonsterName31001",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.55,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510032",
-		["PotentialEffScale"] = 4.0,
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.7,
-		["SkillGroup"] = 1026,
-		["StarReturnType"] = 3,
-		["Talent"] = "5510032",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82023] = {
-		["CatchItem"] = 10407045,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			31008,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10064,
-		["Id"] = 82023,
-		["Item"] = "10410001,10",
-		["Model"] = 10064,
-		["Monster"] = 10064,
-		["Name"] = "MonsterName10064",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.65,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510033",
-		["PropertyDesc"] = "Attr_9",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.6,
-		["SkillGroup"] = 1017,
-		["Talent"] = "5510033",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82024] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31008,
-		["Id"] = 82024,
-		["Item"] = "10410001,10",
-		["Model"] = 31008,
-		["Name"] = "MonsterName31008",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.65,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510034",
-		["PotentialEffScale"] = 4.0,
-		["PropertyDesc"] = "Attr_9",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.8,
-		["SkillGroup"] = 1027,
-		["StarReturnType"] = 3,
-		["Talent"] = "5510034",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82025] = {
-		["CatchItem"] = 10407004,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			10033,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10020,
-		["Id"] = 82025,
-		["Item"] = "10410001,10",
-		["Model"] = 10020,
-		["Monster"] = 10020,
-		["Name"] = "MonsterName10020",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510035",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_6",
-		["Quality"] = 1,
-		["SkillGroup"] = 1018,
-		["Talent"] = "5510035",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82026] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 10033,
-		["Id"] = 82026,
-		["Item"] = "10410001,10",
-		["Model"] = 10033,
-		["Name"] = "MonsterName10033",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510036",
-		["PotentialEffScale"] = 1.0,
-		["PropertyDesc"] = "Attr_6",
-		["SkillGroup"] = 1023,
-		["StarReturnType"] = 1,
-		["Talent"] = "5510036",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82027] = {
-		["CatchItem"] = 10407015,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			10102,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10088,
-		["Id"] = 82027,
-		["Item"] = "10410001,10",
-		["Model"] = 10088,
-		["Monster"] = 10088,
-		["Name"] = "MonsterName10088",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510037",
-		["PropertyDesc"] = "Attr_10",
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.7,
-		["SkillGroup"] = 1019,
-		["Talent"] = "5510037",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82028] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 10102,
-		["Id"] = 82028,
-		["Item"] = "10410001,10",
-		["Model"] = 10102,
-		["Name"] = "MonsterName10102",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510038",
-		["PropertyDesc"] = "Attr_10",
-		["SceneModelScale"] = 0.85,
-		["SkillGroup"] = 1024,
-		["StarReturnType"] = 1,
-		["Talent"] = "5510038",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82029] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 30011,
-		["Id"] = 82029,
-		["Item"] = "10410001,10",
-		["Model"] = 30011,
-		["Name"] = "MonsterName30011",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510039",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.95,
-		["SkillGroup"] = 1028,
-		["StarReturnType"] = 4,
-		["Talent"] = "5510039",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214005,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82030] = {
-		["CatchItem"] = 10407057,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10095,
-		["Id"] = 82030,
-		["Item"] = "10410001,10",
-		["Model"] = 10095,
-		["Monster"] = 10095,
-		["Name"] = "MonsterName10095",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.4,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510040",
-		["PropertyDesc"] = "Attr_6",
-		["SceneModelScale"] = 0.8,
-		["SkillGroup"] = 1020,
-		["StarReturnType"] = 2,
-		["Talent"] = "5510040",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82031] = {
-		["CatchItem"] = 10407010,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10150,
-		["Id"] = 82031,
-		["Item"] = "10410001,10",
-		["Model"] = 10150,
-		["Monster"] = 10150,
-		["Name"] = "MonsterName10150",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.55,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510041",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_1",
-		["SceneModelScale"] = 0.6,
-		["SkillGroup"] = 1021,
-		["StarReturnType"] = 2,
-		["Talent"] = "5510041",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[82032] = {
-		["CatchItem"] = 10407041,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10022,
-		["Id"] = 82032,
-		["Item"] = "10410001,10",
-		["Model"] = 10022,
-		["Monster"] = 10022,
-		["Name"] = "MonsterName10022",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.6,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5510042",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_1",
-		["SceneModelScale"] = 0.7,
-		["SkillGroup"] = 1022,
-		["StarReturnType"] = 2,
-		["Talent"] = "5510042",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[83000] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 83000,
-		["Id"] = 83000,
-		["Item"] = "10410001,10",
-		["Model"] = 83000,
-		["Name"] = "MonsterName10165",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.55,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500219",
-		["PotentialEffScale"] = 5.0,
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 3,
-		["SkillGroup"] = 1029,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500219",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214023,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[84000] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 84000,
-		["Id"] = 84000,
-		["Model"] = 84000,
-		["Name"] = "MonsterName84000",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.27,
-			330.0,
-			0.3,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500220",
-		["PropertyDesc"] = "Attr_1",
-		["Quality"] = 3,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500220",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214025,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85001] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30002,
-		["Id"] = 85001,
-		["Model"] = 30002,
-		["Name"] = "MonsterName30002",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.28,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500606",
-		["PotentialEffScale"] = 6.0,
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.5,
-		["SkillGroup"] = 1031,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500606",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85002] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 30004,
-		["Id"] = 85002,
-		["Model"] = 30004,
-		["Name"] = "MonsterName30004",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.55,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500600",
-		["PotentialEffScale"] = 4.0,
-		["PropertyDesc"] = "Attr_10",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.8,
-		["SkillGroup"] = 1032,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500600",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214031,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85003] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30013,
-		["Id"] = 85003,
-		["Model"] = 30013,
-		["Name"] = "MonsterName30013",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500603",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_10",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.8,
-		["SkillGroup"] = 1033,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500603",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85004] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 30005,
-		["Id"] = 85004,
-		["Model"] = 30005,
-		["Name"] = "MonsterName30005",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.32,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500604",
-		["PotentialEffScale"] = 5.0,
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.6,
-		["SkillGroup"] = 1034,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500604",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214033,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85005] = {
-		["CatchItem"] = 10407052,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85006,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10068,
-		["Id"] = 85005,
-		["Model"] = 10068,
-		["Monster"] = 10068,
-		["Name"] = "MonsterName10068",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.5,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500607",
-		["PotentialEffScale"] = 1.5,
-		["Quality"] = 1,
-		["SkillGroup"] = 1035,
-		["Talent"] = "5500607",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85006] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 31009,
-		["Id"] = 85006,
-		["Model"] = 31009,
-		["Name"] = "MonsterName31009",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500608",
-		["PotentialEffScale"] = 2.2,
-		["Quality"] = 3,
-		["SkillGroup"] = 1036,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500608",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85007] = {
-		["CatchItem"] = 10407028,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85008,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10076,
-		["Id"] = 85007,
-		["Model"] = 10076,
-		["Monster"] = 10076,
-		["Name"] = "MonsterName10076",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500609",
-		["PotentialEffScale"] = 3.0,
-		["Quality"] = 1,
-		["SkillGroup"] = 1037,
-		["Talent"] = "5500609",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85008] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30023,
-		["Id"] = 85008,
-		["Model"] = 30023,
-		["Name"] = "MonsterName30023",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.5,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500610",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1038,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500610",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85009] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 30017,
-		["Id"] = 85009,
-		["Model"] = 30017,
-		["Name"] = "MonsterName30017",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.7,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500601",
-		["PropertyDesc"] = "Attr_8",
-		["Quality"] = 3,
-		["SkillGroup"] = 1039,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500601",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214038,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85010] = {
-		["CatchItem"] = 10407050,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85011,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10080,
-		["Id"] = 85010,
-		["Model"] = 10080,
-		["Monster"] = 10080,
-		["Name"] = "MonsterName10080",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500611",
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 1,
-		["SkillGroup"] = 1040,
-		["Talent"] = "5500611",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85011] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30009,
-		["Id"] = 85011,
-		["Model"] = 30009,
-		["Name"] = "MonsterName30009",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.4,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500612",
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1041,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500612",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85012] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			2,
-		},
-		["Icon"] = 30012,
-		["Id"] = 85012,
-		["Model"] = 30012,
-		["Name"] = "MonsterName30012",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.4,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500614",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.65,
-		["SkillGroup"] = 1042,
-		["StarReturnType"] = 3,
-		["Talent"] = "5500614",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85013] = {
-		["CatchItem"] = 10407015,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85003,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10100,
-		["Id"] = 85013,
-		["Model"] = 10100,
-		["Monster"] = 10100,
-		["Name"] = "MonsterName10100",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500602",
-		["PropertyDesc"] = "Attr_10",
-		["Quality"] = 1,
-		["SkillGroup"] = 1043,
-		["Talent"] = "5500602",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85014] = {
-		["CatchItem"] = 10407056,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10118,
-		["Id"] = 85014,
-		["Model"] = 10118,
-		["Monster"] = 10118,
-		["Name"] = "MonsterName10118",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500615",
-		["PropertyDesc"] = "Attr_2",
-		["SkillGroup"] = 1044,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500615",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85015] = {
-		["CatchItem"] = 10407014,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10101,
-		["Id"] = 85015,
-		["Model"] = 10101,
-		["Monster"] = 10101,
-		["Name"] = "MonsterName10101",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500616",
-		["PropertyDesc"] = "Attr_10",
-		["SkillGroup"] = 1045,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500616",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85016] = {
-		["CatchItem"] = 10407027,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10103,
-		["Id"] = 85016,
-		["Model"] = 10103,
-		["Monster"] = 10103,
-		["Name"] = "MonsterName10103",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500617",
-		["PropertyDesc"] = "Attr_8",
-		["SkillGroup"] = 1046,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500617",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85017] = {
-		["CatchItem"] = 10407055,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10116,
-		["Id"] = 85017,
-		["Model"] = 10116,
-		["Monster"] = 10116,
-		["Name"] = "MonsterName10116",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.75,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500618",
-		["PropertyDesc"] = "Attr_2",
-		["SceneModelScale"] = 1.1,
-		["SkillGroup"] = 1047,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500618",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85018] = {
-		["CatchItem"] = 10407056,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10154,
-		["Id"] = 85018,
-		["Model"] = 10154,
-		["Monster"] = 10154,
-		["Name"] = "MonsterName10154",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500619",
-		["PropertyDesc"] = "Attr_10",
-		["SceneModelScale"] = 1.4,
-		["SkillGroup"] = 1048,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500619",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85019] = {
-		["CatchItem"] = 10407014,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10089,
-		["Id"] = 85019,
-		["Model"] = 10089,
-		["Monster"] = 10089,
-		["Name"] = "MonsterName10089",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.85,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500620",
-		["PropertyDesc"] = "Attr_10",
-		["SceneModelScale"] = 1.1,
-		["SkillGroup"] = 1049,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500620",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85020] = {
-		["CatchItem"] = 10407029,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10078,
-		["Id"] = 85020,
-		["Model"] = 10078,
-		["Monster"] = 10078,
-		["Name"] = "MonsterName10078",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500621",
-		["SceneModelScale"] = 1.2,
-		["SkillGroup"] = 1050,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500621",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85021] = {
-		["CatchItem"] = 10407027,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10041,
-		["Id"] = 85021,
-		["Model"] = 10041,
-		["Monster"] = 10041,
-		["Name"] = "MonsterName10041",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500622",
-		["PropertyDesc"] = "Attr_8",
-		["SkillGroup"] = 1051,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500622",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85022] = {
-		["CatchItem"] = 10407034,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10091,
-		["Id"] = 85022,
-		["Model"] = 10091,
-		["Monster"] = 10091,
-		["Name"] = "MonsterName10091",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.85,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500623",
-		["PotentialEffScale"] = 2.5,
-		["SceneModelScale"] = 1.2,
-		["SkillGroup"] = 1052,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500623",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85023] = {
-		["CatchItem"] = 10407005,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10092,
-		["Id"] = 85023,
-		["Model"] = 10092,
-		["Monster"] = 10092,
-		["Name"] = "MonsterName10092",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.7,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500624",
-		["PropertyDesc"] = "Attr_2",
-		["SkillGroup"] = 1053,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500624",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85024] = {
-		["CatchItem"] = 10407057,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10037,
-		["Id"] = 85024,
-		["Model"] = 10037,
-		["Monster"] = 10037,
-		["Name"] = "MonsterName10037",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.0,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500625",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_9",
-		["SceneModelScale"] = 1.2,
-		["SkillGroup"] = 1054,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500625",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85025] = {
-		["CatchItem"] = 10407038,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85012,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10121,
-		["Id"] = 85025,
-		["Model"] = 10121,
-		["Monster"] = 10121,
-		["Name"] = "MonsterName10121",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500613",
-		["PotentialEffScale"] = 3.0,
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 1,
-		["SkillGroup"] = 1055,
-		["Talent"] = "5500613",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85026] = {
-		["CatchItem"] = 10407011,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			85001,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 10173,
-		["Id"] = 85026,
-		["Model"] = 10173,
-		["Monster"] = 10173,
-		["Name"] = "MonsterName10173",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500605",
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 1,
-		["SkillGroup"] = 1056,
-		["Talent"] = "5500605",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85027] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85027,
-		["Id"] = 85027,
-		["Model"] = 85027,
-		["Name"] = "MonsterName85027",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.72,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500626",
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 1,
-		["SkillGroup"] = 1030,
-		["Talent"] = "5500626",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214056,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85028] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85028,
-		["Id"] = 85028,
-		["Model"] = 30204,
-		["Name"] = "MonsterName85028",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.5,
-			330.0,
-			0.0,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500628",
-		["PropertyDesc"] = "Attr_8",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.26,
-		["SkillGroup"] = 1058,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500222",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214068,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85029] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85029,
-		["Id"] = 85029,
-		["Model"] = 85029,
-		["Name"] = "MonsterName85029",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.5,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500629",
-		["PropertyDesc"] = "Attr_5",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.5,
-		["SkillGroup"] = 1057,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500221",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214069,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85030] = {
-		["CatchItem"] = 10407064,
-		["CatchItemNum"] = 6,
-		["CorrespondingSkills"] = 1000105,
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			1,
-		},
-		["Icon"] = 85030,
-		["Id"] = 85030,
-		["Model"] = 55426,
-		["Monster"] = 55473,
-		["Name"] = "MonsterName85030",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.7,
-			330.0,
-			0.28,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500223",
-		["PotentialEffScale"] = 1.85,
-		["Quality"] = 1,
-		["SceneModelScale"] = 0.85,
-		["SkillGroup"] = 1059,
-		["Talent"] = "5500223",
-		["TalentLevel"] = {
-			1,
-		},
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85031] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 55474,
-		["Id"] = 85031,
-		["Model"] = 55474,
-		["Name"] = "MonsterName85031",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.9,
-			330.0,
-			0.28,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500224",
-		["PropertyDesc"] = "Attr_1",
-		["SceneModelScale"] = 0.9,
-		["SkillGroup"] = 1060,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500224",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214091,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85032] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 55475,
-		["Id"] = 85032,
-		["Model"] = 55475,
-		["Name"] = "MonsterName85032",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.45,
-			330.0,
-			0.28,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500225",
-		["PropertyDesc"] = "Attr_1",
-		["SceneModelScale"] = 0.45,
-		["SkillGroup"] = 1061,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500225",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214092,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85034] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 55230,
-		["Id"] = 85034,
-		["Model"] = 55230,
-		["Name"] = "MonsterName55230",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.25,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500226",
-		["PotentialEffScale"] = 4.0,
-		["PropertyDesc"] = "Attr_7",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.25,
-		["SkillGroup"] = 1062,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500226",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214096,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85035] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85035,
-		["Id"] = 85035,
-		["Model"] = 85035,
-		["Name"] = "MonsterName85035",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			1.3,
-			330.0,
-			0.25,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500228",
-		["PropertyDesc"] = "Attr_6",
-		["SkillGroup"] = 1063,
-		["StarReturnType"] = 2,
-		["Talent"] = "5500228",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214097,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85036] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85036,
-		["Id"] = 85036,
-		["Model"] = 85036,
-		["Name"] = "MonsterName85036",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			2.0,
-			330.0,
-			-1.8,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500227",
-		["PotentialEffScale"] = 0.75,
-		["PropertyDesc"] = "Attr_2",
-		["Quality"] = 3,
-		["SceneModelScale"] = 1.2,
-		["SkillGroup"] = 1064,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500227,5500229,5500230",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214099,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-	[85037] = {
-		["EvolutionID"] = {
-			0,
-		},
-		["ExpItem"] = {
-			10411005,
-		},
-		["GetType"] = {
-			3,
-		},
-		["Icon"] = 85037,
-		["Id"] = 85037,
-		["Model"] = 85037,
-		["Name"] = "MonsterName85037",
-		["PetAbandonmentDialog"] = {
-			1,
-			2,
-			3,
-			4,
-			5,
-		},
-		["PetCollection"] = {
-			0.6,
-			330.0,
-			0.2,
-		},
-		["PetEvolution"] = {
-			0,
-		},
-		["PetTalentDesc"] = "SkillSketch5500233",
-		["PropertyDesc"] = "Attr_9",
-		["Quality"] = 3,
-		["SceneModelScale"] = 0.6,
-		["SkillGroup"] = 1065,
-		["StarReturnType"] = 4,
-		["Talent"] = "5500233",
-		["TalentLevel"] = {
-			1,
-		},
-		["UseItemId"] = 10214101,
-		["VitalityItem"] = {
-			10410005,
-		},
-	},
-}
-local baseTable = 
+return
 {
-	["CatchItem"] = 0,
-	["CatchItemNum"] = 0,
-	["CatchLevel"] = 1,
-	["CorrespondingSkills"] = 0,
-	["Desc"] = "0",
-	["ExpFashion"] = {},
-	["IfChosen"] = 0,
-	["IsFirstCatchSuccess"] = 0,
-	["IsSp"] = 0,
-	["Item"] = "10102001,10",
-	["Monster"] = 0,
-	["NeedCatchLevel"] = 1,
-	["PetCage"] = 0,
-	["PetEquip"] = 0,
-	["PetNPC"] = 0,
-	["PetTendency"] = 2,
-	["PotentialEffScale"] = 2,
-	["Property"] = 1,
-	["PropertyDesc"] = "Attr_3",
-	["Quality"] = 2,
-	["SceneModelScale"] = 1,
-	["SkillGroup"] = 1001,
-	["StarReturnType"] = 0,
-	["UseItemId"] = 0,
-	["Vitality"] = 4000,
+    [82001]= {
+        ["CatchItem"]= 10407001,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            31002
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10001,
+        ["Id"]= 82001,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 1,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10001,
+        ["Monster"]= 10001,
+        ["Name"]= "MonsterName10001",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500200",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.1,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1003,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500200",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82002]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31002,
+        ["Id"]= 82002,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 31002,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31002",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.84,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500201",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.5,
+        ["SkillGroup"]= 1004,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500201",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82003]= {
+        ["CatchItem"]= 10407002,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            31006
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10004,
+        ["Id"]= 82003,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 1,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10004,
+        ["Monster"]= 10004,
+        ["Name"]= "MonsterName10004",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.23
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500198",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.75,
+        ["SkillGroup"]= 1001,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500198",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82004]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31006,
+        ["Id"]= 82004,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 31006,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31006",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.4,
+            330.0,
+            0.24
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500199",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.85,
+        ["SkillGroup"]= 1001,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500199",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82005]= {
+        ["CatchItem"]= 10407011,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            30007
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10027,
+        ["Id"]= 82005,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10027,
+        ["Monster"]= 10027,
+        ["Name"]= "MonsterName10027",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.91,
+            330.0,
+            0.3
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500202",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_4",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.9,
+        ["SkillGroup"]= 1005,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500202",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82006]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30007,
+        ["Id"]= 82006,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30007,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30007",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.54,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500203",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_4",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.5,
+        ["SkillGroup"]= 1006,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500203",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82007]= {
+        ["CatchItem"]= 10407011,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            10149
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10010,
+        ["Id"]= 82007,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10010,
+        ["Monster"]= 10010,
+        ["Name"]= "MonsterName10010",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.68,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500205",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.6,
+        ["SkillGroup"]= 1007,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500205",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82008]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 10149,
+        ["Id"]= 82008,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10149,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10149",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.78,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500206",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1007,
+        ["StarReturnType"]= 1,
+        ["Talent"]= "5500206",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82009]= {
+        ["CatchItem"]= 10407004,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            10084
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10044,
+        ["Id"]= 82009,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10044,
+        ["Monster"]= 10044,
+        ["Name"]= "MonsterName10044",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.78,
+            350.0,
+            0.0
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500209",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1012,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500209",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82010]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 10084,
+        ["Id"]= 82010,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10084,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10084",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.91,
+            350.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500210",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1013,
+        ["StarReturnType"]= 1,
+        ["Talent"]= "5500210",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82011]= {
+        ["CatchItem"]= 10407004,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            10024
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10016,
+        ["Id"]= 82011,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10016,
+        ["Monster"]= 10016,
+        ["Name"]= "MonsterName10016",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.2,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500207",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1010,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500207",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82012]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 10024,
+        ["Id"]= 82012,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10024,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10024",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.27
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500208",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.72,
+        ["SkillGroup"]= 1011,
+        ["StarReturnType"]= 1,
+        ["Talent"]= "5500208",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82013]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30008,
+        ["Id"]= 82013,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30008,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30008",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.3,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500204",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.4,
+        ["SkillGroup"]= 1002,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500204",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214001,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82014]= {
+        ["CatchItem"]= 10407010,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10060,
+        ["Id"]= 82014,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10060,
+        ["Monster"]= 10060,
+        ["Name"]= "MonsterName10060",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.96,
+            330.0,
+            0.24
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500211",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.3,
+        ["SkillGroup"]= 1008,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500211",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82015]= {
+        ["CatchItem"]= 10407027,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10085,
+        ["Id"]= 82015,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10085,
+        ["Monster"]= 10085,
+        ["Name"]= "MonsterName10085",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.27
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500212",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.85,
+        ["SkillGroup"]= 1009,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500212",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82016]= {
+        ["CatchItem"]= 10407014,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10094,
+        ["Id"]= 82016,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10094,
+        ["Monster"]= 10094,
+        ["Name"]= "MonsterName10094",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.96,
+            330.0,
+            0.27
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500213",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.75,
+        ["SkillGroup"]= 1014,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500213",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82017]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 82017,
+        ["Id"]= 82017,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 82017,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName82017",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500215",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1003,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500215",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214002,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82018]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 82018,
+        ["Id"]= 82018,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 82018,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName82018",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500218",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1001,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500218",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214003,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82019]= {
+        ["CatchItem"]= 10407011,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            31004
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10030,
+        ["Id"]= 82019,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10030,
+        ["Monster"]= 10030,
+        ["Name"]= "MonsterName10030",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.8,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510029",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_4",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1015,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5510029",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82020]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31004,
+        ["Id"]= 82020,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 31004,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31004",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510030",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_4",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1025,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5510030",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82021]= {
+        ["CatchItem"]= 10407028,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            31001
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10008,
+        ["Id"]= 82021,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10008,
+        ["Monster"]= 10008,
+        ["Name"]= "MonsterName10008",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.95,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510031",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1016,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5510031",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82022]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31001,
+        ["Id"]= 82022,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 31001,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31001",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.55,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510032",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1026,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5510032",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82023]= {
+        ["CatchItem"]= 10407045,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            31008
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10064,
+        ["Id"]= 82023,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10064,
+        ["Monster"]= 10064,
+        ["Name"]= "MonsterName10064",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.65,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510033",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_9",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.6,
+        ["SkillGroup"]= 1017,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5510033",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82024]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31008,
+        ["Id"]= 82024,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 31008,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31008",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.65,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510034",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_9",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1027,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5510034",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82025]= {
+        ["CatchItem"]= 10407004,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            10033
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10020,
+        ["Id"]= 82025,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10020,
+        ["Monster"]= 10020,
+        ["Name"]= "MonsterName10020",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510035",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_6",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1018,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5510035",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82026]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 10033,
+        ["Id"]= 82026,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10033,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10033",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510036",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_6",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1023,
+        ["StarReturnType"]= 1,
+        ["Talent"]= "5510036",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82027]= {
+        ["CatchItem"]= 10407015,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            10102
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10088,
+        ["Id"]= 82027,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10088,
+        ["Monster"]= 10088,
+        ["Name"]= "MonsterName10088",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510037",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1019,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5510037",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82028]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 10102,
+        ["Id"]= 82028,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10102,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10102",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510038",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.85,
+        ["SkillGroup"]= 1024,
+        ["StarReturnType"]= 1,
+        ["Talent"]= "5510038",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82029]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30011,
+        ["Id"]= 82029,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 30011,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30011",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510039",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.95,
+        ["SkillGroup"]= 1028,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5510039",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214005,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82030]= {
+        ["CatchItem"]= 10407057,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10095,
+        ["Id"]= 82030,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10095,
+        ["Monster"]= 10095,
+        ["Name"]= "MonsterName10095",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.4
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510040",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_6",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1020,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5510040",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82031]= {
+        ["CatchItem"]= 10407010,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10150,
+        ["Id"]= 82031,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10150,
+        ["Monster"]= 10150,
+        ["Name"]= "MonsterName10150",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.55,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510041",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.6,
+        ["SkillGroup"]= 1021,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5510041",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [82032]= {
+        ["CatchItem"]= 10407041,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10022,
+        ["Id"]= 82032,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 10022,
+        ["Monster"]= 10022,
+        ["Name"]= "MonsterName10022",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.6,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5510042",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1022,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5510042",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [83000]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 83000,
+        ["Id"]= 83000,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10410001,10",
+        ["Model"]= 83000,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName10165",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.55,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500219",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 5.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1029,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500219",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214023,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [84000]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 84000,
+        ["Id"]= 84000,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 84000,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName84000",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.27,
+            330.0,
+            0.3
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500220",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1001,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500220",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214025,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85001]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30002,
+        ["Id"]= 85001,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30002,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30002",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.28,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500606",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 6.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.5,
+        ["SkillGroup"]= 1031,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500606",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85002]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30004,
+        ["Id"]= 85002,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30004,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30004",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.55,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500600",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1032,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500600",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214031,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85003]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30013,
+        ["Id"]= 85003,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30013,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30013",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500603",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1033,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500603",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85004]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30005,
+        ["Id"]= 85004,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30005,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30005",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.32,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500604",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 5.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.6,
+        ["SkillGroup"]= 1034,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500604",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214033,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85005]= {
+        ["CatchItem"]= 10407052,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85006
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10068,
+        ["Id"]= 85005,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10068,
+        ["Monster"]= 10068,
+        ["Name"]= "MonsterName10068",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500607",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.5,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1035,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500607",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85006]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 31009,
+        ["Id"]= 85006,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 31009,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31009",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500608",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.2,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1036,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500608",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85007]= {
+        ["CatchItem"]= 10407028,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85008
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10076,
+        ["Id"]= 85007,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10076,
+        ["Monster"]= 10076,
+        ["Name"]= "MonsterName10076",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500609",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1037,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500609",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85008]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30023,
+        ["Id"]= 85008,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30023,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30023",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500610",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1038,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500610",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85009]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30017,
+        ["Id"]= 85009,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30017,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30017",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.7,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500601",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1039,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500601",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214038,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85010]= {
+        ["CatchItem"]= 10407050,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85011
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10080,
+        ["Id"]= 85010,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10080,
+        ["Monster"]= 10080,
+        ["Name"]= "MonsterName10080",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500611",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1040,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500611",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85011]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30009,
+        ["Id"]= 85011,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30009,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30009",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.4,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500612",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1041,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500612",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85012]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            2
+        },
+        ["Icon"]= 30012,
+        ["Id"]= 85012,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30012,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30012",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.4,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500614",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.65,
+        ["SkillGroup"]= 1042,
+        ["StarReturnType"]= 3,
+        ["Talent"]= "5500614",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85013]= {
+        ["CatchItem"]= 10407015,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85003
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10100,
+        ["Id"]= 85013,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10100,
+        ["Monster"]= 10100,
+        ["Name"]= "MonsterName10100",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500602",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1043,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500602",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85014]= {
+        ["CatchItem"]= 10407056,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10118,
+        ["Id"]= 85014,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10118,
+        ["Monster"]= 10118,
+        ["Name"]= "MonsterName10118",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500615",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1044,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500615",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85015]= {
+        ["CatchItem"]= 10407014,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10101,
+        ["Id"]= 85015,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10101,
+        ["Monster"]= 10101,
+        ["Name"]= "MonsterName10101",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500616",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1045,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500616",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85016]= {
+        ["CatchItem"]= 10407027,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10103,
+        ["Id"]= 85016,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10103,
+        ["Monster"]= 10103,
+        ["Name"]= "MonsterName10103",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500617",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1046,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500617",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85017]= {
+        ["CatchItem"]= 10407055,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10116,
+        ["Id"]= 85017,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10116,
+        ["Monster"]= 10116,
+        ["Name"]= "MonsterName10116",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.75,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500618",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.1,
+        ["SkillGroup"]= 1047,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500618",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85018]= {
+        ["CatchItem"]= 10407056,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10154,
+        ["Id"]= 85018,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10154,
+        ["Monster"]= 10154,
+        ["Name"]= "MonsterName10154",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500619",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.4,
+        ["SkillGroup"]= 1048,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500619",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85019]= {
+        ["CatchItem"]= 10407014,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10089,
+        ["Id"]= 85019,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10089,
+        ["Monster"]= 10089,
+        ["Name"]= "MonsterName10089",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.85,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500620",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.1,
+        ["SkillGroup"]= 1049,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500620",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85020]= {
+        ["CatchItem"]= 10407029,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10078,
+        ["Id"]= 85020,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10078,
+        ["Monster"]= 10078,
+        ["Name"]= "MonsterName10078",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500621",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.2,
+        ["SkillGroup"]= 1050,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500621",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85021]= {
+        ["CatchItem"]= 10407027,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10041,
+        ["Id"]= 85021,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10041,
+        ["Monster"]= 10041,
+        ["Name"]= "MonsterName10041",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500622",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1051,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500622",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85022]= {
+        ["CatchItem"]= 10407034,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10091,
+        ["Id"]= 85022,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10091,
+        ["Monster"]= 10091,
+        ["Name"]= "MonsterName10091",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.85,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500623",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.5,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.2,
+        ["SkillGroup"]= 1052,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500623",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85023]= {
+        ["CatchItem"]= 10407005,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10092,
+        ["Id"]= 85023,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10092,
+        ["Monster"]= 10092,
+        ["Name"]= "MonsterName10092",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.7,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500624",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1053,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500624",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85024]= {
+        ["CatchItem"]= 10407057,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10037,
+        ["Id"]= 85024,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10037,
+        ["Monster"]= 10037,
+        ["Name"]= "MonsterName10037",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500625",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_9",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.2,
+        ["SkillGroup"]= 1054,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500625",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85025]= {
+        ["CatchItem"]= 10407038,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85012
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10121,
+        ["Id"]= 85025,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10121,
+        ["Monster"]= 10121,
+        ["Name"]= "MonsterName10121",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500613",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1055,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500613",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85026]= {
+        ["CatchItem"]= 10407011,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            85001
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 10173,
+        ["Id"]= 85026,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 10173,
+        ["Monster"]= 10173,
+        ["Name"]= "MonsterName10173",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500605",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1056,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500605",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85027]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85027,
+        ["Id"]= 85027,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85027,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85027",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500626",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1030,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500626",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214056,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85028]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85028,
+        ["Id"]= 85028,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30204,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85028",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            0.0
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500628",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.26,
+        ["SkillGroup"]= 1058,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500222",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214068,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85029]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85029,
+        ["Id"]= 85029,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85029,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85029",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500629",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_5",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.5,
+        ["SkillGroup"]= 1057,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500221",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214069,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85030]= {
+        ["CatchItem"]= 10407064,
+        ["CatchItemNum"]= 6,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 1000105,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            1
+        },
+        ["Icon"]= 85030,
+        ["Id"]= 85030,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 55426,
+        ["Monster"]= 55473,
+        ["Name"]= "MonsterName85030",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.7,
+            330.0,
+            0.28
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500223",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.85,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_3",
+        ["Quality"]= 1,
+        ["SceneModelScale"]= 0.85,
+        ["SkillGroup"]= 1059,
+        ["StarReturnType"]= 0,
+        ["Talent"]= "5500223",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 0,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85031]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 55474,
+        ["Id"]= 85031,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 55474,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85031",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.9,
+            330.0,
+            0.28
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500224",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.9,
+        ["SkillGroup"]= 1060,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500224",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214091,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85032]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 55475,
+        ["Id"]= 85032,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 55475,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85032",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.45,
+            330.0,
+            0.28
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500225",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 0.45,
+        ["SkillGroup"]= 1061,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500225",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214092,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85034]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 55230,
+        ["Id"]= 85034,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 55230,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName55230",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.25,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500226",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_7",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.25,
+        ["SkillGroup"]= 1062,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500226",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214096,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85035]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85035,
+        ["Id"]= 85035,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85035,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85035",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.3,
+            330.0,
+            0.25
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500228",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_6",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1063,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500228",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214097,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85036]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85036,
+        ["Id"]= 85036,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85036,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85036",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            2.0,
+            330.0,
+            -1.8
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500227",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 0.75,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.2,
+        ["SkillGroup"]= 1064,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500227,5500229,5500230",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214099,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85037]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85037,
+        ["Id"]= 85037,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85037,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85037",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.6,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500233",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_9",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.6,
+        ["SkillGroup"]= 1065,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500233",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214101,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85038]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 55245,
+        ["Id"]= 85038,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85038,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85038",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500234",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.7,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.7,
+        ["SkillGroup"]= 1066,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500234",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214100,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85039]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85039,
+        ["Id"]= 85039,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85039,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85039",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            -0.5
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500235,SkillSketch5500236",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2|Attr_6",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1068,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500235|5500236",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214102,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85040]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85040,
+        ["Id"]= 85040,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85040,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85040",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500237,SkillSketch5500238",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_7|Attr_6",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1069,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500237|5500238",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214103,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85041]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85041,
+        ["Id"]= 85041,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85041,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85041",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.72,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500239,SkillSketch5500240",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_7|Attr_4",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1070,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500239|5500240",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214104,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85042]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85042,
+        ["Id"]= 85042,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85042,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85042",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.0,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500241",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 2.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 2,
+        ["SceneModelScale"]= 1.0,
+        ["SkillGroup"]= 1071,
+        ["StarReturnType"]= 2,
+        ["Talent"]= "5500241",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214105,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85043]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85043,
+        ["Id"]= 85043,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85043,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85043",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.6,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500264,SkillSketch5500265",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_10|Attr_1",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.9,
+        ["SkillGroup"]= 1074,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500264|5500265",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214106,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85044]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85044,
+        ["Id"]= 85044,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85044,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85044",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.6,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500260,SkillSketch5500261",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1|Attr_8",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.9,
+        ["SkillGroup"]= 1075,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500260|5500261",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214107,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85045]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85045,
+        ["Id"]= 85045,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85045,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85045",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.5,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500262,SkillSketch5500263",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_8|Attr_10",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.8,
+        ["SkillGroup"]= 1076,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500262|5500263",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214108,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85046]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 31010,
+        ["Id"]= 85046,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 31010,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName31010",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.3,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500242",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_2",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.3,
+        ["SkillGroup"]= 1072,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500242",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214109,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85047]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 30001,
+        ["Id"]= 85047,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 30001,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName30001",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.4,
+            330.0,
+            0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500243",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 3.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_7",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 0.4,
+        ["SkillGroup"]= 1073,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500243,5500244",
+        ["TalentLevel"]= {
+            1
+        },
+        ["UseItemId"]= 10214110,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85048]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 85048,
+        ["Id"]= 85048,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 1,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85048,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85048",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            0.65,
+            330.0,
+            -0.2
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500266,SkillSketch5500267",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 4.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1|Attr_8",
+        ["Quality"]= 4,
+        ["SceneModelScale"]= 0.9,
+        ["SkillGroup"]= 1077,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500266|5500267",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214111,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    },
+    [85051]= {
+        ["CatchItem"]= 0,
+        ["CatchItemNum"]= 0,
+        ["CatchLevel"]= 1,
+        ["CorrespondingSkills"]= 0,
+        ["Desc"]= "0",
+        ["EvolutionID"]= {
+            0
+        },
+        ["ExpFashion"]= {},
+        ["ExpItem"]= {
+            10411005
+        },
+        ["GetType"]= {
+            3
+        },
+        ["Icon"]= 24099,
+        ["Id"]= 85051,
+        ["IfChosen"]= 0,
+        ["IsFirstCatchSuccess"]= 0,
+        ["IsSp"]= 0,
+        ["Item"]= "10102001,10",
+        ["Model"]= 85051,
+        ["Monster"]= 0,
+        ["Name"]= "MonsterName85051",
+        ["NeedCatchLevel"]= 1,
+        ["PetAbandonmentDialog"]= {
+            1,
+            2,
+            3,
+            4,
+            5
+        },
+        ["PetCage"]= 0,
+        ["PetCollection"]= {
+            1.7,
+            330.0,
+            0.0
+        },
+        ["PetEquip"]= 0,
+        ["PetEvolution"]= {
+            0
+        },
+        ["PetNPC"]= 0,
+        ["PetTalentDesc"]= "SkillSketch5500268",
+        ["PetTendency"]= 2,
+        ["PotentialEffScale"]= 1.0,
+        ["Property"]= 1,
+        ["PropertyDesc"]= "Attr_1",
+        ["Quality"]= 3,
+        ["SceneModelScale"]= 1.5,
+        ["SkillGroup"]= 1078,
+        ["StarReturnType"]= 4,
+        ["Talent"]= "5500268,5500269",
+        ["TalentLevel"]= {
+            1,
+            1
+        },
+        ["UseItemId"]= 10214114,
+        ["Vitality"]= 4000,
+        ["VitalityItem"]= {
+            10410005
+        }
+    }
 }
-for _,v in pairs(table) do
-	setmetatable(v,{__index  = baseTable});
-end
-return table;

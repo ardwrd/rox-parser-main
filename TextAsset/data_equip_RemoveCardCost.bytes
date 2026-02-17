@@ -1,45 +1,67 @@
-local table = {
-	[1] = {
-		["extraHole"] = 0,
-	},
-	[2] = {
-		["extraHole"] = 0,
-		["quality"] = 2,
-	},
-	[3] = {
-		["extraHole"] = 0,
-		["quality"] = 3,
-	},
-	[4] = {
-		["extraHole"] = 0,
-		["quality"] = 4,
-	},
-	[5] = {
-		["id"] = 5,
-	},
-	[6] = {
-		["id"] = 6,
-		["quality"] = 2,
-	},
-	[7] = {
-		["id"] = 7,
-		["quality"] = 3,
-	},
-	[8] = {
-		["id"] = 8,
-		["quality"] = 4,
-	},
-}
-local baseTable = 
+return
 {
-	["currencyType"] = 3,
-	["currencyValue"] = 0,
-	["extraHole"] = 1,
-	["id"] = 0,
-	["material"] = {},
-	["quality"] = 1,
+    [1]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=0,
+        ["id"]=0,
+        ["material"]={},
+        ["quality"]=1
+    },
+    [2]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=0,
+        ["id"]=0,
+        ["material"]={},
+        ["quality"]=2
+    },
+    [3]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=0,
+        ["id"]=0,
+        ["material"]={},
+        ["quality"]=3
+    },
+    [4]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=0,
+        ["id"]=0,
+        ["material"]={},
+        ["quality"]=4
+    },
+    [5]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=1,
+        ["id"]=5,
+        ["material"]={},
+        ["quality"]=1
+    },
+    [6]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=1,
+        ["id"]=6,
+        ["material"]={},
+        ["quality"]=2
+    },
+    [7]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=1,
+        ["id"]=7,
+        ["material"]={},
+        ["quality"]=3
+    },
+    [8]={
+        ["currencyType"]=3,
+        ["currencyValue"]=0,
+        ["extraHole"]=1,
+        ["id"]=8,
+        ["material"]={},
+        ["quality"]=4
+    }
 }
-for _,v in pairs(table) do
-	setmetatable(v,{__index  = baseTable});
-end
-return table;
